@@ -4,6 +4,44 @@
 
 ## Developer Setup
 ### Installing the Google Cloud SDK
+#### Issue: python version error running gcloud
+There are currently issues with Python 3.10+ running gcloud as of 20211121.  The temporary fix is to revert to Python 3.7 or 2.7.
+After switching the following environment varable to point to an older python installation and rerunning the shell (ming64 in this case) we are good
+
+    Before
+    $ gcloud version
+    ERROR: gcloud failed to load: module 'collections' has no attribute 'Mapping'
+    gcloud_main = _import_gcloud_main()
+    import googlecloudsdk.gcloud_main
+    from googlecloudsdk.calliope import cli
+    from googlecloudsdk.calliope import actions
+    from googlecloudsdk.calliope import markdown
+    from googlecloudsdk.calliope import usage_text
+    from googlecloudsdk.calliope import parser_arguments
+    from googlecloudsdk.calliope import parser_completer
+    from googlecloudsdk.core.console import progress_tracker
+    class _BaseStagedProgressTracker(collections.Mapping):
+
+    This usually indicates corruption in your gcloud installation or problems with your Python interpreter.
+
+    Please verify that the following is the path to a working Python 2.7 or 3.5+ executable:
+    C:\opt\python3\python.exe
+
+    If it is not, please set the CLOUDSDK_PYTHON environment variable to point to a working Python 2.7 or 3.5+ executable.
+
+    
+    After
+    micha@carbon MINGW64 ~
+    $ gcloud version
+    Google Cloud SDK 365.0.0
+    bq 2.0.71
+    core 2021.11.12
+    gsutil 5.5
+
+
+### Installing the Google Cloud SDK on Windows
+
+### Installing the Google Cloud SDK on osx
 
 https://cloud.google.com/sdk/docs/quickstart
 
