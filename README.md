@@ -89,6 +89,32 @@ https://cloud.google.com/sdk/docs/quickstart
 
     To update your SDK installation to the latest version [365.0.0], run:
       $ gcloud components update
+          
+      Enter a path to an rc file to update, or leave blank to use [/Users/michaelobrien/.zshrc]:  /Users/michaelobrien/.bash_profile
+
+      already have python 3.9 - you must run the 3.7 installer
+      Cloud SDK works best with Python 3.7 and certain modules.
+    Download and run Python 3.7 installer? (Y/n)?  y
+    Running Python 3.7 installer, you may be prompted for sudo password...
+    Password:
+    installer: Package name is Python
+    installer: Upgrading at base path /
+    installer: The upgrade was successful.
+    Setting up virtual environment
+    Creating virtualenv...
+    Installing modules...
+     |████████████████████████████████| 118 kB 46.2 MB/s 
+    Running setup.py install for crcmod ... done
+    Virtual env enabled.
+
+    verify....
+    biometric:google-cloud-sdk michaelobrien$ source ~/.bash_profile
+    biometric:google-cloud-sdk michaelobrien$ gcloud version
+    Google Cloud SDK 365.0.0
+    bq 2.0.71
+    core 2021.11.12
+    gsutil 5.5
+
 
 
 
