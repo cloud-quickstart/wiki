@@ -139,7 +139,3 @@ line below
 
 ---
 
-![image text](/image-link)
-
-[wiki.obrienlabs.cloud](http://wiki.obrienlabs.cloud)
-html markup <em>italics</em>
