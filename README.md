@@ -31,7 +31,7 @@ After switching the following environment varable to point to an older python in
 
     
     After
-    micha@carbon MINGW64 ~
+    MINGW64 ~
     $ gcloud version
     Google Cloud SDK 365.0.0
     bq 2.0.71
