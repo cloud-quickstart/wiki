@@ -121,6 +121,23 @@ https://cloud.google.com/sdk/docs/quickstart
 
 https://cloud.google.com/kubernetes-engine/docs/quickstart
 
+### Reconnecting to the GKE cluster
+
+Reconnect the google cloud shell
+
+    Welcome to Cloud Shell! Type "help" to get started.
+    Your Cloud Platform project in this session is set to biometric-334301.
+    Use “gcloud config set project [PROJECT_ID]” to change to a different project.
+    
+    fmobrien9@cloudshell:~ (biometric-334301)$ gcloud container clusters get-credentials cluster1 --zone us-central1-c --project biometric-334301
+    Fetching cluster endpoint and auth data.
+    kubeconfig entry generated for cluster1.
+    fmobrien9@cloudshell:~ (biometric-334301)$ kubectl get nodes
+    NAME                                      STATUS   ROLES    AGE   VERSION
+    gke-cluster1-default-pool-c3afce1b-05ll   Ready    <none>   12h   v1.21.5-gke.1302
+    gke-cluster1-default-pool-c3afce1b-7cn9   Ready    <none>   12h   v1.21.5-gke.1302
+    gke-cluster1-default-pool-c3afce1b-lx3w   Ready    <none>   12h   v1.21.5-gke.1302
+    gke-cluster1-default-pool-c3afce1b-nqzq   Ready    <none>   12h   v1.21.5-gke.1302
 
 # Appendix
 
