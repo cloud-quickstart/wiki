@@ -181,6 +181,12 @@ Reconnect the google cloud shell
     gke-cluster1-default-pool-c3afce1b-lx3w   Ready    <none>   12h   v1.21.5-gke.1302
     gke-cluster1-default-pool-c3afce1b-nqzq   Ready    <none>   12h   v1.21.5-gke.1302
 
+## Google Compute
+
+    PS C:\Windows\system32> gcloud compute instances list
+    API [compute.googleapis.com] not enabled on project [991698271966]. Would you like to enable and retry (this will take a few minutes)? (y/N)?  y
+    Enabling service [compute.googleapis.com] on project [991698271966]...
+
 # Appendix
 
 
