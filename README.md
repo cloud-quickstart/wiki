@@ -4,6 +4,9 @@
 
 ## Developer Setup
 ### Installing the Google Cloud SDK
+
+https://cloud.google.com/sdk/docs/cheatsheet
+
 #### Issue: python version error running gcloud
 There are currently issues with Python 3.10+ running gcloud as of 20211121.  The temporary fix is to revert to Python 3.7 or 2.7.
 After switching the following environment varable to point to an older python installation and rerunning the shell (ming64 in this case) we are good
