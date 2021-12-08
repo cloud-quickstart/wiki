@@ -115,6 +115,45 @@ https://cloud.google.com/sdk/docs/quickstart
     core 2021.11.12
     gsutil 5.5
 
+## Google Cloud Shell
+
+## Authenticating local CLI access
+
+https://cloud.google.com/sdk/docs/authorizing
+
+Use '''gcloud init''' and accept the option to authenticate a new account
+
+Pick cloud project to use:
+ [1] biometric-334503
+ [2] thermal-slice-332322
+ [3] Create a new project
+Please enter numeric choice or text value (must exactly match list item):  1
+
+Your current project has been set to: [biometric-334503].
+
+Not setting default zone/region (this feature makes it easier to use
+[gcloud compute] by setting an appropriate default value for the
+--zone and --region flag).
+See https://cloud.google.com/compute/docs/gcloud-compute section on how to set
+default compute region and zone manually. If you would like [gcloud init] to be
+able to do this for you the next time you run it, make sure the
+Compute Engine API is enabled for your project on the
+https://console.developers.google.com/apis page.
+
+Your Google Cloud SDK is configured and ready to use!
+
+* Commands that require authentication will use michael@obrienlabs.cloud by default
+* Commands will reference project `biometric-334503` by default
+Run `gcloud help config` to learn how to change individual settings
+
+This gcloud configuration is called [obrienlabs-cloud]. You can create additional configurations if you work with multiple accounts and/or projects.
+Run `gcloud topic configurations` to learn more.
+
+Some things to try next:
+
+* Run `gcloud --help` to see the Cloud Platform services you can interact with. And run `gcloud help COMMAND` to get help on any gcloud command.
+* Run `gcloud topic --help` to learn about advanced features of the SDK like arg files and output formatting
+
 
 # Google Kubernetes Engine - GKE
 ## GKE Quickstart
