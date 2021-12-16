@@ -279,6 +279,70 @@ https://registry.terraform.io/providers/hashicorp/google/latest/docs
  
     Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
  
+     michael@cloudshell:~/cloudshell_open/docs-examples/address_basic (dev-sphere-335220)$ cat terraform.tfstate
+    {
+      "version": 4,
+      "terraform_version": "0.15.0",
+      "serial": 9,
+      "lineage": "15b70e84-53ce-6cf7-3518-ed294a4181d2",
+      "outputs": {},
+      "resources": [
+        {
+          "mode": "managed",
+          "type": "google_compute_address",
+          "name": "ip_address",
+          "provider": "provider[\"registry.terraform.io/hashicorp/google\"]",
+          "instances": [
+            {
+              "schema_version": 0,
+              "attributes": {
+                "address": "34.70.49.6",
+                "address_type": "EXTERNAL",
+                "creation_timestamp": "2021-12-15T19:40:55.884-08:00",
+                "description": "",
+                "id": "projects/dev-sphere-335220/regions/us-central1/addresses/my-address-ample-spaniel",
+                "name": "my-address-ample-spaniel",
+                "network": "",
+                "network_tier": "PREMIUM",
+                "prefix_length": 0,
+                "project": "dev-sphere-335220",
+                "purpose": "",
+                "region": "us-central1",
+                "self_link": "https://www.googleapis.com/compute/v1/projects/dev-sphere-335220/regions/us-central1/addresses/my-address-ample-spaniel",
+                "subnetwork": "",
+                "timeouts": null,
+                "users": []
+              },
+              "sensitive_attributes": [],
+              "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoyNDAwMDAwMDAwMDAsImRlbGV0ZSI6MjQwMDAwMDAwMDAwfX0=",
+              "dependencies": [
+                "random_pet.suffix"
+              ]
+            }
+          ]
+        },
+        {
+          "mode": "managed",
+          "type": "random_pet",
+          "name": "suffix",
+          "provider": "provider[\"registry.terraform.io/hashicorp/random\"]",
+          "instances": [
+            {
+              "schema_version": 0,
+              "attributes": {
+                "id": "ample-spaniel",
+                "keepers": null,
+                "length": 2,
+                "prefix": null,
+                "separator": "-"
+              },
+              "sensitive_attributes": [],
+              "private": "bnVsbA=="
+             }
+          ]
+        }
+      ]
+    }
 
     terraform destroy
     google_compute_address.ip_address: Destroying... [id=projects/dev-sphere-335220/regions/us-central1/addresses/my-address-one-doberman]
@@ -289,6 +353,16 @@ https://registry.terraform.io/providers/hashicorp/google/latest/docs
     random_pet.suffix: Destruction complete after 0s
  
     Destroy complete! Resources: 2 destroyed.
+
+    michael@cloudshell:~/cloudshell_open/docs-examples/address_basic (dev-sphere-335220)$ cat terraform.tfstate    
+    {
+      "version": 4,
+      "terraform_version": "0.15.0",
+      "serial": 6,
+      "lineage": "15b70e84-53ce-6cf7-3518-ed294a4181d2",
+      "outputs": {},
+      "resources": [] 
+    }
 
 # Appendix
 
