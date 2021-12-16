@@ -214,6 +214,29 @@ https://registry.terraform.io/providers/hashicorp/google/latest/docs
     backing_file.tf  main.tf  motd  tutorial.md
     michael@cloudshell:~/cloudshell_open/docs-examples/address_basic$ export GOOGLE_CLOUD_PROJECT=dev-sphere-335220
     michael@cloudshell:~/cloudshell_open/docs-examples/address_basic$ terraform init
+    
+    Initializing provider plugins...
+    - Finding latest version of hashicorp/google...
+    - Finding latest version of hashicorp/random...
+    - Installing hashicorp/google v4.4.0...
+    - Installed hashicorp/google v4.4.0 (self-signed, key ID 34365D9472D7468F)
+    - Installing hashicorp/random v3.1.0...
+    - Installed hashicorp/random v3.1.0 (self-signed, key ID 34365D9472D7468F)
+
+    Terraform has created a lock file .terraform.lock.hcl to record the provider
+    selections it made above. Include this file in your version control repository
+    so that Terraform can guarantee to make the same selections by default when
+    you run "terraform init" in the future.
+
+    Terraform has been successfully initialized!
+
+    You may now begin working with Terraform. Try running "terraform plan" to see
+    any changes that are required for your infrastructure. All Terraform commands
+    should now work.
+
+    If you ever set or change modules or backend configuration for Terraform,
+    rerun this command to reinitialize your working directory. If you forget, other
+    commands will detect it and remind you to do so if necessary.
  
     │ Error: Error creating Address: googleapi: Error 403: Compute Engine API has not been used in project 313394869326 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=313394869326 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
     │ Details:
