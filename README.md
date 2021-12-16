@@ -187,6 +187,86 @@ Reconnect the google cloud shell
     API [compute.googleapis.com] not enabled on project [991698271966]. Would you like to enable and retry (this will take a few minutes)? (y/N)?  y
     Enabling service [compute.googleapis.com] on project [991698271966]...
 
+# Terraform on Google Cloud
+## Terraform is provisioned with Google Cloud Shell
+Use an example https://registry.terraform.io/modules/terraform-google-modules/kubernetes-engine/google/latest
+
+https://www.hashicorp.com/blog/kickstart-terraform-on-gcp-with-google-cloud-shell
+
+https://registry.terraform.io/providers/hashicorp/google/latest/docs
+
+
+    Welcome to Cloud Shell! Type "help" to get started.
+    To set your Cloud Platform project in this session use “gcloud config set project [PROJECT_ID]”
+    cloudshell_open --repo_url "https://github.com/terraform-google-modules/docs-examples.git" --print_file "./motd" --dir "address_basic" --page "editor" --tutorial "./tutorial.md" --open_in_editor "main.tf" --force_new_clone
+    michael@cloudshell:~$ cloudshell_open --repo_url "https://github.com/terraform-google-modules/docs-examples.git" --print_file "./motd" --dir "address_basic" --page "editor" --tutorial "./tutorial.md" --open_in_editor "main.tf" --force_new_clone
+    2021/12/16 03:08:42 Cloning https://github.com/terraform-google-modules/docs-examples.git into /home/michael/cloudshell_open/docs-examples
+    Cloning into '/home/michael/cloudshell_open/docs-examples'...
+    remote: Enumerating objects: 1906, done.
+    remote: Total 1906 (delta 0), reused 0 (delta 0), pack-reused 1906
+    Receiving objects: 100% (1906/1906), 447.94 KiB | 7.46 MiB/s, done.
+    Resolving deltas: 100% (1442/1442), done.
+    2021/12/16 03:08:43 ===
+ 
+
+    ===
+    michael@cloudshell:~/cloudshell_open/docs-examples/address_basic$ ls
+    backing_file.tf  main.tf  motd  tutorial.md
+    michael@cloudshell:~/cloudshell_open/docs-examples/address_basic$ export GOOGLE_CLOUD_PROJECT=dev-sphere-335220
+    michael@cloudshell:~/cloudshell_open/docs-examples/address_basic$ terraform init
+ 
+    │ Error: Error creating Address: googleapi: Error 403: Compute Engine API has not been used in project 313394869326 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=313394869326 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+    │ Details:
+    │ [
+    │   {
+    │     "@type": "type.googleapis.com/google.rpc.Help",
+    │     "links": [
+    │       {
+    │         "description": "Google developers console API activation",
+    │         "url": "https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=313394869326"
+    │       }
+    │     ]
+    │   },
+    │   {
+    │     "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+    │     "domain": "googleapis.com",
+    │     "metadata": {
+    │       "consumer": "projects/313394869326",
+    │       "service": "compute.googleapis.com"
+    │     },
+    │     "reason": "SERVICE_DISABLED"
+    │   }
+    │ ]
+    │ , accessNotConfigured
+    │
+    │   on main.tf line 1, in resource "google_compute_address" "ip_address":
+    │    1: resource "google_compute_address" "ip_address" {
+ 
+    Forgot to enable compute - run...
+ 
+    michael@cloudshell:~/cloudshell_open/docs-examples/address_basic$ gcloud config set project dev-sphere-335220
+    Updated property [core/project].
+    michael@cloudshell:~/cloudshell_open/docs-examples/address_basic (dev-sphere-335220)$ gcloud services enable compute.googleapis.com
+ 
+    terraform apply
+ 
+    google_compute_address.ip_address: Creating...
+    google_compute_address.ip_address: Still creating... [10s elapsed]
+    google_compute_address.ip_address: Creation complete after 13s [id=projects/dev-sphere-335220/regions/us-central1/addresses/my-address-one-doberman]
+ 
+    Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+ 
+
+    terraform destroy
+    google_compute_address.ip_address: Destroying... [id=projects/dev-sphere-335220/regions/us-central1/addresses/my-address-one-doberman]
+    google_compute_address.ip_address: Still destroying... [id=projects/dev-sphere-335220/regions/us-central1/addresses/my-address-one-doberman, 10s elapsed]
+    google_compute_address.ip_address: Destruction complete after 11s
+
+    random_pet.suffix: Destroying... [id=one-doberman]
+    random_pet.suffix: Destruction complete after 0s
+ 
+    Destroy complete! Resources: 2 destroyed.
+
 # Appendix
 
 
