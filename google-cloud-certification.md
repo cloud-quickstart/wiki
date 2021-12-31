@@ -3,6 +3,8 @@
 ## Google Services
 
 ## SRE Principles
+Google has defined Site Reliability Engineering tenets.
+
 Emergency Response (MTTR, MTTF)
 
 Capacity Planning
