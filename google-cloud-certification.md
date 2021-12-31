@@ -2,6 +2,17 @@
 
 ## Google Services
 
+## SRE Principles
+Emergency Response (MTTR, MTTF)
+
+Capacity Planning
+
+Change Management
+
+Error Budget
+
+Monitoring (Alerts, Tickets, Logging/Metrics)
+Provisioning
 
 ## Google Professional Cloud DevOps Engineer
 
