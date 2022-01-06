@@ -1,5 +1,12 @@
 # Wiki / Confluence site
 
+[cloud-guardrails](https://github.com/cloud-quickstart/wiki/blob/main/cloud-guardrails.md)
+
+[cloud-services-grid](https://github.com/cloud-quickstart/wiki/blob/main/cloud-services-grid.md)
+
+[google-cloud-certification](https://github.com/cloud-quickstart/wiki/blob/main/google-cloud-certification.md)
+
+
 # Google Cloud Platform
 
 ## Developer Setup
