@@ -371,6 +371,63 @@ https://registry.terraform.io/providers/hashicorp/google/latest/docs
       "resources": [] 
     }
 
+## Old School - GCE via CLI with docker
+
+michael@services:~$ gcloud version
+Google Cloud SDK 367.0.0
+alpha 2021.12.10
+beta 2021.12.10
+bq 2.0.72
+core 2021.12.10
+gsutil 5.5
+minikube 1.24.0
+skaffold 1.34.0
+
+
+michael@cloudshell:~ (biometric-335918)$ gcloud compute zones list | grep us-east4
+NAME: us-east4-c
+REGION: us-east4
+NAME: us-east4-b
+REGION: us-east4
+NAME: us-east4-a
+REGION: us-east4
+michael@cloudshell:~ (biometric-335918)$ gcloud config set compute/zone us-east4-c
+Updated property [compute/zone].
+
+
+ sudo apt update
+ sudo apt upgrade
+ sudo apt-get install curl
+
+ sudo curl https://releases.rancher.com/install-docker/20.10.sh | sh
+ sudo usermod -aG docker michael
+
+ichael@services:~$ sudo docker run --name reference-nbi -d -p 8888:8080 obrienlabs/reference-nbi:0.0.1
+Unable to find image 'obrienlabs/reference-nbi:0.0.1' locally
+0.0.1: Pulling from obrienlabs/reference-nbi
+c67289558ae5: Pull complete 
+12787f1f3888: Pull complete 
+33b68cfe81ae: Extracting [=============================>                     ]  110.9MB/187.1MB
+01504f33d5ce: Download complete 
+ee05f50557f5: Download complete 
+
+
+michael@services:~$ curl http://127.0.0.1:8888/nbi/api
+{"id":1,"content":"1 PASS cloud.containerization.reference.nbi.ApiController URL: http://127.0.0.1:8888/nbi/api URI: /nbi/api path: null referer: null caller: null Host: 127.0.0.1:8888 queryString: null decodedQueryString: null secret1: null secret2: /root username: null session attributes:  :  remoteAddr: 172.17.0.1 localAddr: 172.17.0.2 remoteHost: 172.17.0.1 serverName: 127.0.0.1"}
+
+michael@services:~$ sudo docker stop reference-nbi
+reference-nbi
+michael@services:~$ sudo docker rm reference-nbi
+reference-nbi
+michael@services:~$ sudo docker run --name reference-nbi -d -p 80:8080 obrienlabs/reference-nbi:0.0.1
+8893088a1771253e5e244c897e350e3f22316e2705872ff52d7b2d6ff37070c9
+
+
+
+
+
+
+
 # Appendix
 
 
