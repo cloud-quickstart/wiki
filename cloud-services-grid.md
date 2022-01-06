@@ -14,3 +14,7 @@ in construction 2021-11
  VPC | CIDR | Dynamic CIDR resizing | | | |
  VPC | Subnet across Regions| | | | |
  VPC | SSH/RDP access | [Identity Aware Proxy](https://cloud.google.com/iap/docs/concepts-overview) | | | |
+
+## To categorize
+
+Shared reservations across projects - https://cloud.google.com/compute/docs/instances/reservations-shared#best_practices
