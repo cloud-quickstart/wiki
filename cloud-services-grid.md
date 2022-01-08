@@ -23,6 +23,14 @@ in construction 2021-11
 
 Shared reservations across projects - https://cloud.google.com/compute/docs/instances/reservations-shared#best_practices
 
+# Cross Cloud
+## Categories
+GCP on AWS
+AWS on GCP
+OSS on GCP
+
+Karpenter
+
 ## To diagram
 ### Services in/output against other services - grid
 ### Heatmap
