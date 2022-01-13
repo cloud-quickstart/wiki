@@ -4,7 +4,7 @@ in construction 2021-11
   `Service` | `category` | `GCP` | `GCP former` | `AWS` | `Azure` | `Open Source` | `Code Example` 
   --- | --- | --- | --- | --- | --- | --- | ---
   | | | | | | |
- DevOps | DevOps |  [DevOps](https://cloud.google.com/devops) | | | | |
+ DevOps | DevOps |  [DevOps](https://cloud.google.com/devops) [DORA - DevOps Research And Assessment](https://www.devops-research.com/quickcheck.html)] | | | | |
  Distributed Relational DBaaS | | [Bigtable](https://cloud.google.com/bigtable) | | | | Apache hbase |
  Event Handling | | [EventArc](https://cloud.google.com/eventarc/docs) | | EventBridge | | ||
  FaaS | Java Functions | [Functions Java](https://cloud.google.com/functions/docs/quickstart-java) | | | | |
