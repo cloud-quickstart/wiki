@@ -27,3 +27,12 @@ https://console.cloud.google.com/iam-admin/quotas
 ## Q: 20220113: Evaluation Quota for top VM M2-megamem-416
 ...pending - details on a limited time eval of the performance of the following 416 vCore VM via https://cloud.google.com/compute/vm-instance-pricing
 m2-megamem-416	416	5888GB	$50.372	Not available in this region	$30.387	$17.412
+
+## Q: 20220113: Connecting to GCP Cloud SQL
+https://cloud.google.com/sql/docs/mysql/connect-admin-ip
+
+    in cloud shell
+    michael@cloudshell:~ (biometric-335918)$ gcloud sql connect biometric --user=root --quiet
+    Allowlisting your IP for incoming connection for 5 minutes...working...
+    
+    
