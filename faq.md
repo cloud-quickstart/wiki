@@ -23,3 +23,7 @@ https://console.cloud.google.com/iam-admin/quotas
     Byte Order:          Little Endian
     Address sizes:       48 bits physical, 48 bits virtual
     CPU(s):              96
+
+## Q: 20220113: Evaluation Quota for top VM M2-megamem-416
+...pending - details on a limited time eval of the performance of the following 416 vCore VM via https://cloud.google.com/compute/vm-instance-pricing
+m2-megamem-416	416	5888GB	$50.372	Not available in this region	$30.387	$17.412
