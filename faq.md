@@ -29,10 +29,17 @@ https://console.cloud.google.com/iam-admin/quotas
 m2-megamem-416	416	5888GB	$50.372	Not available in this region	$30.387	$17.412
 
 ## Q: 20220113: Connecting to GCP Cloud SQL
-https://cloud.google.com/sql/docs/mysql/connect-admin-ip
+https://cloud.google.com/sql/docs/mysql/quickstart-proxy-test#windows-64-bit
 
     in cloud shell
     michael@cloudshell:~ (biometric-335918)$ gcloud sql connect biometric --user=root --quiet
     Allowlisting your IP for incoming connection for 5 minutes...working...
     
+    Add the role Cloud SQL Admin
+    
+    Enable Cloud SQL Admin API
+    On the local machine - run the proxy
+    PS C:\opt> ./cloud_sql_proxy -instances=biometric-335918:us-central1:biometric=tcp:3306
+    2022/01/13 23:41:43 errors parsing config:
+        googleapi: Error 403: The client is not authorized to make this request., notAuthorized
     
