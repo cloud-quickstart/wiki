@@ -25,6 +25,7 @@ in construction 2021-11
 
 Shared reservations across projects - https://cloud.google.com/compute/docs/instances/reservations-shared#best_practices
 
+cloud composer off apache airflow
 # Cross Cloud
 ## Categories
 GCP on AWS
