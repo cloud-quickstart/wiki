@@ -4,6 +4,9 @@ in construction 2021-11
   `Service` | `category` | `GCP` | `GCP former` | `AWS` | `Azure` | `Open Source` | `Code Example` 
   --- | --- | --- | --- | --- | --- | --- | ---
   | | | | | | |
+  | | | [Dataflow](https://cloud.google.com/dataflow) | | | | [Apache Beam](https://beam.apache.org/) |
+ ML | | [Dataprep](https://cloud.google.com/dataflow) | | | | [Trifacta wranger](https://www.trifacta.com/) |
+ Hadoop | | [Dataproc](https://cloud.google.com/dataproc) | | | | |
  DevOps | DevOps |  [DevOps](https://cloud.google.com/devops) [DORA - DevOps Research And Assessment](https://www.devops-research.com/quickcheck.html)] | | | | |
  Distributed Relational DBaaS | | [Bigtable](https://cloud.google.com/bigtable) | | | | Apache hbase |
  Event Handling | | [EventArc](https://cloud.google.com/eventarc/docs) | | EventBridge | | ||
