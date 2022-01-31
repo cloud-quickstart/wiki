@@ -21,6 +21,9 @@ There are currently issues with Python 3.10+ running gcloud as of 20211121.  The
 After switching the following environment varable to point to an older python installation and rerunning the shell (ming64 in this case) we are good
 
     Before
+    
+    $ gcloud config list
+    
     $ gcloud version
     ERROR: gcloud failed to load: module 'collections' has no attribute 'Mapping'
     gcloud_main = _import_gcloud_main()
