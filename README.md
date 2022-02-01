@@ -170,6 +170,9 @@ Some things to try next:
 * Run `gcloud topic --help` to learn about advanced features of the SDK like arg files and output formatting
 
 
+gcloud auth list
+gcloud config list project
+
 # Google Kubernetes Engine - GKE
 ## GKE Quickstart
 
