@@ -4,6 +4,7 @@ in construction 2021-11
   `Service` | `category` | `GCP` | `GCP former` | `AWS` | `Azure` | `Open Source` | `Code Example` 
   --- | --- | --- | --- | --- | --- | --- | ---
   | | | | | | |
+ CI/CD | | [Spinnaker](https://github.com/GoogleCloudPlatform/spinnaker-for-gcp) | | | | |
   | | | [Dataflow](https://cloud.google.com/dataflow) | | | | [Apache Beam](https://beam.apache.org/) |
  ML | | [Dataprep](https://cloud.google.com/dataflow) | | | | [Trifacta wranger](https://www.trifacta.com/) |
  Hadoop | | [Dataproc](https://cloud.google.com/dataproc) | | | | |
