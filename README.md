@@ -171,6 +171,53 @@ After switching the following environment varable to point to an older python in
     biometric  us-central1-a  e2-micro                    10.128.0.4   34..22   RUNNING
     services   us-east4-c     n1-standard-2               10.150.0.2   34..18  RUNNING
 
+#### Run collatz to benchmark the VM
+
+http://wiki.obrienlabs.cloud/display/DEV/Performance#Performance-FullKubernetesClusterCPUSaturation
+
+    sudo apt update
+    sudo apt upgrade
+    sudo apt-get install curl
+    sudo curl https://releases.rancher.com/install-docker/19.03.sh | sh
+    sudo usermod -aG docker michael
+    sudo docker run --name collatz -d obrienlabs/collatz-se:0.0.1
+    sudo docker logs collatz -f
+
+
+    michael@hpe1:~$ sudo docker logs collatz -f
+    ForkJoinCollatzServer forkJoinPool-power-start end runs (v 20161009)
+    availableProc   : 60
+    fjps threads    : 5,6
+    freeMemory()    : 2143287296
+    maxMemory()     : 32178700288
+    totalMemory()   : 2147483648
+    System.getEnv() : {PATH=/usr/local/openjdk-11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin, HOSTNAME=74761e04c44f, JAVA_HOME=/usr/local/openjdk-11, OLDPWD=/, JAVA_VERSION=11.0.8, PWD=/opt/app, LANG=C.UTF-8, SHLVL=1, HOME=/root, _=/usr/local/openjdk-11/bin/java}
+    Range: bits     : 25
+    5246,5,22,522,8
+    4338,5,21,421,16
+    4310,5,20,420,32
+    4320,5,19,419,64
+    4279,5,18,418,128
+    4296,5,17,417,256
+    4212,5,16,416,512
+    4333,5,15,415,1024
+    4262,5,14,414,2048
+    4266,5,13,413,4096
+    4264,5,12,412,8192
+    4361,5,11,411,16384
+    4286,5,10,410,32768
+    4344,5,9,49,65536
+    4378,5,8,48,131072
+    4525,5,7,47,262144
+    4734,5,6,46,524288
+    5136,5,5,55,1048576
+    5504,5,4,54,2097152
+    9688,5,3,93,4194304
+    19134,5,2,192,8388608
+    36621,5,1,361,16777216
+    69954,5,0,690,33554432
+
+
 
 ### Installing the Google Cloud SDK on osx
 
