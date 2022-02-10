@@ -13,6 +13,7 @@ This is not an officially supported Google product
 
 ## Developer Setup
 ### Installing the Google Cloud SDK
+### Installing the Google Cloud SDK on Windows
 
 https://cloud.google.com/sdk/docs/cheatsheet
 
@@ -54,7 +55,122 @@ After switching the following environment varable to point to an older python in
     gsutil 5.5
 
 
-### Installing the Google Cloud SDK on Windows
+### Installing the Google Cloud SDK on a bastion/jump box
+
+#### Create GCP VM
+
+    Linux biometric 4.19.0-18-cloud-amd64 #1 SMP Debian 4.19.208-1 (2021-09-29) x86_64
+    
+    Ask for quota increase - usually 1-3 min not 48h
+    https://console.cloud.google.com/iam-admin/quotas?referrer=search&project=biometric-335918&pageState=(%22allQuotasTable%22:(%22f%22:%22%255B%257B_22k_22_3A_22_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22N2D_CPUS_5C_22_22%257D_2C%257B_22k_22_3A_22_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22us-central1_5C_22_22%257D%255D%22,%22p%22:0))
+
+    +------------------+-------------+-----------------+
+    |       Name       |    Region   | Requested Limit |
+    +------------------+-------------+-----------------+
+    | PREEMPTIBLE_CPUS | us-central1 |        96       |
+    |     C2_CPUS      | us-central1 |        96       |
+    |     N2D_CPUS     | us-central1 |        96       |
+    | COMMITTED_N2D_CPUS | us-central1 |        96       |
+    | CPUS_ALL_REGIONS |    GLOBAL   |        96       |
+    | CPUS_ALL_REGIONS |    GLOBAL   |       112       |
+    +------------------+-------------+-----------------+
+    
+    michael@spot:~$ lscpu
+    Architecture:        x86_64
+    CPU op-mode(s):      32-bit, 64-bit
+    Byte Order:          Little Endian
+    Address sizes:       48 bits physical, 48 bits virtual
+    CPU(s):              96
+    On-line CPU(s) list: 0-95
+    Thread(s) per core:  2
+    Core(s) per socket:  24
+    Socket(s):           2
+    NUMA node(s):        2
+    Vendor ID:           AuthenticAMD
+    CPU family:          23
+    Model:               49
+    Model name:          AMD EPYC 7B12
+    Stepping:            0
+    CPU MHz:             2249.996
+    BogoMIPS:            4499.99
+    Hypervisor vendor:   KVM
+    Virtualization type: full
+    L1d cache:           32K
+    L1i cache:           32K
+    L2 cache:            512K
+    L3 cache:            16384K
+    NUMA node0 CPU(s):   0-23,48-71
+    NUMA node1 CPU(s):   24-47,72-95
+
+    for m2-ultramem-208 (5.75) $38 hourly
+
+    for containerized.org
+    Thank you for submitting Case # (ID:82174b6e1fca4e3188023998adc5e9b3) to Google Cloud Platform support for the following quota:
+		Change CPUs - us-central1 from 24 to 128
+
+    Your quota request for biometric-dev has been partially approved and your
+    project quota has been adjusted according to the following requested limits:
+
+    +------+-------------+-----------------+
+    | Name |    Region   | Requested Limit |
+    +------+-------------+-----------------+
+    | CPUS | us-central1 |       128       |
+    +------+-------------+-----------------+
+
+    Unfortunately, we were unable to grant your below quota request(s):
+
+    +------------------+--------+
+    |       Name       | Region |
+    +------------------+--------+
+    | CPUS_ALL_REGIONS | GLOBAL |
+    +------------------+--------+
+
+    Operation type [insert] failed with message "Quota 'CPUS_ALL_REGIONS' exceeded. Limit: 32.0 globally."
+
+    Create spot VM
+    michael@cloudshell:~ (biometric-335918)$ gcloud beta compute instances create biometric-spot --provisioning-model=SPOT --zone us-central1-b
+    Created [https://www.googleapis.com/compute/beta/projects/biometric-335918/zones/us-central1-b/instances/biometric-spot].
+    NAME: biometric-spot
+    ZONE: us-central1-b
+    MACHINE_TYPE: n1-standard-1
+    PREEMPTIBLE: true
+    INTERNAL_IP: 10.128.0.2
+    EXTERNAL_IP: 34...80
+    STATUS: RUNNING
+    using preemptible quota
+    
+    Linux biometric 4.19.0-18-cloud-amd64 #1 SMP Debian 4.19.208-1 (2021-09-29) x86_64
+    michael@biometric:~$ gcloud --version
+    Google Cloud SDK 366.0.0
+    alpha 2021.12.03
+    beta 2021.12.03
+    bq 2.0.72
+    core 2021.12.03
+    gsutil 5.5
+    
+    Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 5.4.0-1059-gcp x86_64)
+    michael@services:~$ gcloud version
+    Google Cloud SDK 372.0.0
+    alpha 2022.02.04
+    beta 2022.02.04
+    bq 2.0.73
+    core 2022.02.04
+    gsutil 5.6
+    minikube 1.24.0
+    skaffold 1.35.1
+    
+    michael@services:~$ gcloud auth list
+                  Credentialed Accounts
+    ACTIVE  ACCOUNT
+    *       2.....2-compute@developer.gserviceaccount.com
+
+    michael@services:~$ gcloud config set account 2..-compute@developer.gserviceaccount.com
+    Updated property [core/account].
+    michael@services:~$ gcloud compute instances list
+    NAME       ZONE           MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP     STATUS
+    biometric  us-central1-a  e2-micro                    10.128.0.4   34..22   RUNNING
+    services   us-east4-c     n1-standard-2               10.150.0.2   34..18  RUNNING
+
 
 ### Installing the Google Cloud SDK on osx
 
