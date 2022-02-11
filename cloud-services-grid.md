@@ -44,5 +44,6 @@ Karpenter
 
 
 
-# TODO
-https://cloud.google.com/blog/products/devops-sre/google-cloud-deploy-now-ga
+# Services
+## Google Cloud Deploy
+https://cloud.google.com/deploy/docs/deploy-app-gke | https://cloud.google.com/blog/products/devops-sre/google-cloud-deploy-now-ga
