@@ -41,3 +41,8 @@ Karpenter
 ## To diagram
 ### Services in/output against other services - grid
 ### Heatmap
+
+
+
+# TODO
+https://cloud.google.com/blog/products/devops-sre/google-cloud-deploy-now-ga
