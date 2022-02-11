@@ -46,4 +46,6 @@ Karpenter
 
 # Services
 ## Google Cloud Deploy
-https://cloud.google.com/deploy/docs/deploy-app-gke | https://cloud.google.com/blog/products/devops-sre/google-cloud-deploy-now-ga
+review: https://cloud.google.com/architecture/app-development-and-delivery-with-cloud-code-gcb-cd-and-gke?hl=en
+https://cloud.google.com/deploy/docs/deploy-app-gke | https://cloud.google.com/blog/products/devops-sre/google-cloud-deploy-now-ga | 
+https://cloud.google.com/deploy/docs/deploying-application/
