@@ -49,3 +49,6 @@ Karpenter
 review: https://cloud.google.com/architecture/app-development-and-delivery-with-cloud-code-gcb-cd-and-gke?hl=en
 https://cloud.google.com/deploy/docs/deploy-app-gke | https://cloud.google.com/blog/products/devops-sre/google-cloud-deploy-now-ga | 
 https://cloud.google.com/deploy/docs/deploying-application/
+
+## Google Policy Controller
+https://cloud.google.com/blog/topics/anthos/enforcing-the-cis-benchmark-with-policy-controller | 
