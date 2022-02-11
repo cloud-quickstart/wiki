@@ -191,3 +191,7 @@ Declare all-clear
 Document root causes
 Create and prioritize action items
 Communicate postmortem to stakeholders
+
+
+# Links
+[GCP Flowcharts](https://grumpygrace.dev/posts/gcp-flowcharts/#compute)
