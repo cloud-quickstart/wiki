@@ -4,7 +4,9 @@ This page has several objectives.  Helping new customers get up to speed evaluat
 ## Google Cloud new account credits
 Date: 20220214
 
-Google Cloud accounts receive $300 US in cloud credits that can be retained indefinitely after billing is enabled.
+https://cloud.google.com/free/docs/gcp-free-tier/#free-trial
+
+Google Cloud accounts receive $300 US in cloud credits that can be retained for 90 days or indefinitely after billing is enabled.
 
 Google Cloud accounts that initially setup a Workspaces Business user and associated domain recieve $100 US in cloud credits
 
