@@ -20,6 +20,7 @@ in construction 2021-11
  Migrate | DB | | | | | |
  Migrate | VM | StratoZone and Migrate for CE | Velostrata | | | |
  Network | Tiered Network | [Premium Network tiers](https://cloud.google.com/network-tiers) | | | |
+ Organizations (multiple) | IAM | [multiple orgs](https://cloud.google.com/resource-manager/docs/managing-multiple-orgs) | | | | |
  VPC | | | | | | | 
  VPC | CIDR | Dynamic CIDR resizing | | | | |
  VPC | Subnet across Regions | | | | | |
