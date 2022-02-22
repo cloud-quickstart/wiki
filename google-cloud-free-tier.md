@@ -17,4 +17,7 @@ For new GCP accounts a link shows up when you access the lab site https://www.cl
 
 The above site will register your personal GCP account with 30 days of unlimited credits for labs.
 
+Note: you will need to do the introductory lab to unlock your credits - the email will arrive in 5 min
+
+
 ## Google Cloud free tier service levels
