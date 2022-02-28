@@ -6,9 +6,19 @@ IAM modification | Google | | "Use Google Cloud's operations suite to set up ale
 
 
 ## Google Cloud Guardrails
+https://github.com/canada-ca/accelerators_accelerateurs-gcp
+
+https://github.com/canada-ca/cloud-guardrails-gcp/tree/main/guardrails-validation
+
+https://github.com/canada-ca/cloud-guardrails/tree/master/EN
+
+https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding
 
 
 ## AWS Cloud Guardrails
 
+https://github.com/aws-samples/aws-secure-environment-accelerator
+
 ## Azure Cloud Guardrails
+https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/governance/blueprints/samples/caf-migrate-landing-zone/deploy.md
 
