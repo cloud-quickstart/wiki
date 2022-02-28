@@ -21,3 +21,6 @@ Note: you will need to do the introductory lab to unlock your credits - the emai
 
 
 ## Google Cloud free tier service levels
+
+## Groups
+https://gdg.community.dev/gdg-cloud-ottawa/
