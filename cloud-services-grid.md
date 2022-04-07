@@ -21,6 +21,7 @@ in construction 2021-11
  Migrate | VM | StratoZone and Migrate for CE | Velostrata | | | |
  Network | Tiered Network | [Premium Network tiers](https://cloud.google.com/network-tiers) | | | |
  Organizations (multiple) | IAM | [multiple orgs](https://cloud.google.com/resource-manager/docs/managing-multiple-orgs) | | | | |
+ Private access | | [Private Service Connect](https://cloud.google.com/vpc/docs/private-service-connect)| | [VPC Endpoints](https://docs.aws.amazon.com/vpc/latest/privatelink/vpc-endpoints.html) | | |
  VPC | | | | | | | 
  VPC | CIDR | Dynamic CIDR resizing | | | | |
  VPC | Subnet across Regions | | | | | |
