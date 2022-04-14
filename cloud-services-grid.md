@@ -1,6 +1,8 @@
 # Cloud Services Grid
 in construction 2021-11
 
+Use the new "All Products" page https://console.cloud.google.com/products
+
   `Service` | `category` | `GCP` | `GCP former` | `AWS` | `Azure` | `Open Source` | `Code Example` 
   --- | --- | --- | --- | --- | --- | --- | ---
   | | | | | | |
