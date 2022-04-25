@@ -56,3 +56,10 @@ https://cloud.google.com/deploy/docs/deploying-application/
 
 ## Google Policy Controller
 https://cloud.google.com/blog/topics/anthos/enforcing-the-cis-benchmark-with-policy-controller | 
+
+## Deployment Manager
+Google Cloud Deployment Manager exports to Kubernetes Resource Model or Terraform - https://cloud.google.com/deployment-manager/docs/dm-convert?_ga=2.245568516.-1453179973.1650887889
+
+## Kubernetes
+https://www.protocol.com/enterprise/google-cloud-istio-cncf
+
