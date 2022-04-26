@@ -3,7 +3,9 @@
 # Google Cloud Training
 
 ## [BigQuery](https://console.cloud.google.com/bigquery) 
-[Big Query Docs](https://cloud.google.com/bigquery/docs/quickstarts) | 
+[BigQuery Free Tier](https://cloud.google.com/free/docs/gcp-free-tier/#bigquery)
+
+[BigQuery Docs](https://cloud.google.com/bigquery/docs/quickstarts) | 
  [Cloud Girl pvergadia BigQuery sketchnote](https://thecloudgirl.dev/bigquery.html) |
  [Blog - BigQuery](https://cloud.google.com/blog/topics/developers-practitioners/announcing-bigquery-and-bigquery-ml-operators-vertex-ai-pipelines) off [developers-practitioners](https://cloud.google.com/blog/topics/developers-practitioners) |
  [cloudskillsboost.google - qwiklabs](https://www.cloudskillsboost.google/catalog?keywords=bigquery&locale=&solution%5B%5D=any&role%5B%5D=any&skill-badge%5B%5D=any&format%5B%5D=any&level%5B%5D=any&duration%5B%5D=any&language%5B%5D=any) |
