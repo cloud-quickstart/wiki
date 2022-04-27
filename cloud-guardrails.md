@@ -27,3 +27,10 @@ https://github.com/aws-samples/aws-secure-environment-accelerator
 ## Azure Cloud Guardrails
 https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/governance/blueprints/samples/caf-migrate-landing-zone/deploy.md
 
+
+# DOD
+https://dodcio.defense.gov/Portals/0/Documents/DoD%20Enterprise%20DevSecOps%20Reference%20Design%20v1.0_Public%20Release.pdf
+
+https://repo1.dso.mil/dsawg-devsecops/kubernetes-srg/k8-srg-artifacts/-/tree/master
+
+
