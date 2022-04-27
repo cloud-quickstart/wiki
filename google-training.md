@@ -16,13 +16,14 @@
  
  
 
-
+# Google Cloud Public Sector
+[Public Sector Learning Series](https://cloudonair.withgoogle.com/events/public-sector-technical-learning-series) | [Blog: TEchnical Training made easy and accessible](https://cloud.google.com/blog/topics/public-sector/technical-training-made-easy-and-accessible-google-cloud-way)
 
 # Google Cloud Landing Zones
-[30 day Guardrails](https://github.com/canada-ca/accelerators_accelerateurs-gcp) | [blog: Cloud-ready in Under 30 Days: accelerate safe and efficient Cloud onboarding with guardrails from Google Cloud](https://cloud.google.com/blog/topics/public-sector/cloud-ready-under-30-days-accelerate-safe-and-efficient-cloud-onboarding-guardrails-google-cloud)
+[30 day Guardrails](https://github.com/canada-ca/accelerators_accelerateurs-gcp) | [blog: Chris Carty: Cloud-ready in Under 30 Days: accelerate safe and efficient Cloud onboarding with guardrails from Google Cloud](https://cloud.google.com/blog/topics/public-sector/cloud-ready-under-30-days-accelerate-safe-and-efficient-cloud-onboarding-guardrails-google-cloud)
 
 [Terraform based Landing Zone](https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding) | 
-  [blog: Meet Canadian compliance requirements with Protected B Landing Zone](https://cloud.google.com/blog/topics/public-sector/meet-canadian-compliance-requirements-protected-b-landing-zones)
+  [blog: Mike Craigen: Meet Canadian compliance requirements with Protected B Landing Zone](https://cloud.google.com/blog/topics/public-sector/meet-canadian-compliance-requirements-protected-b-landing-zones)
 
 [CCCS Compliance Site](https://cloud.google.com/security/compliance/offerings#/regions=Canada) | 
   [Policy Automation Blueprints](https://cloud.google.com/architecture/security-foundations) |
