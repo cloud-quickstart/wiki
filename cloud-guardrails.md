@@ -15,7 +15,10 @@ https://github.com/canada-ca/cloud-guardrails/tree/master/EN
 https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding
 
 https://cloud.google.com/docs/security/infrastructure/design
+
 https://cloud.google.com/architecture/security-foundations
+
+https://cloud.google.com/vpc-service-controls/docs/secure-data-exchange
 
 ## AWS Cloud Guardrails
 
