@@ -20,6 +20,8 @@ https://cloud.google.com/architecture/security-foundations
 
 https://cloud.google.com/vpc-service-controls/docs/secure-data-exchange
 
+https://cloud.google.com/security/compliance/offerings#/regions=Canada
+
 ## AWS Cloud Guardrails
 
 https://github.com/aws-samples/aws-secure-environment-accelerator
