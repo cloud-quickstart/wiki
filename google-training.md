@@ -12,7 +12,7 @@
  [Google Cloud Professional Data Engineer Certification - cloudonair](https://cloudonair.withgoogle.com/events/data-engineer-certification) | 
  [Google Cloud Professional Data Engineer Certification - exam guide](https://cloud.google.com/certification/guides/data-engineer) | 
  [BigQuery quickstart - query a public dataset](https://cloud.google.com/bigquery/docs/quickstarts/query-public-dataset-console?_ga=2.259030538.-1271243118.1645576652&_gac=1.255600122.1648756058.CjwKCAjwopWSBhB6EiwAjxmqDVk06ctWXtq7bthtbiKD0TGsXmUSWNY57QpqQEckHWl-fekp9Tt0AxoCuNQQAvD_BwE) |
- [github: GoogleCloudPlatform/bigquery-utils](https://github.com/GoogleCloudPlatform/bigquery-utils)
+ [github: GoogleCloudPlatform/bigquery-utils](https://github.com/GoogleCloudPlatform/bigquery-utils) | [Automatic DLP for BigQuery](https://cloud.google.com/dlp/docs/data-profiles#request-access)
  
  
 
