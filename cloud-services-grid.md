@@ -25,6 +25,8 @@ Use the new "All Products" page https://console.cloud.google.com/products
  Network | Tiered Network | [Premium Network tiers](https://cloud.google.com/network-tiers) | | | |
  Organizations (multiple) | IAM | [multiple orgs](https://cloud.google.com/resource-manager/docs/managing-multiple-orgs) | | | | |
  Private access | | [Private Service Connect](https://cloud.google.com/vpc/docs/private-service-connect)| | [VPC Endpoints](https://docs.aws.amazon.com/vpc/latest/privatelink/vpc-endpoints.html) | | |
+ Spot VMs | | [Spot VMs](https://cloud.google.com/spot-vms) | | | | | 
+
  VPC | | | | | | | 
  VPC | CIDR | Dynamic CIDR resizing | | | | |
  VPC | Subnet across Regions | | | | | |
