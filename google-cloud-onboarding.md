@@ -19,9 +19,9 @@ You will need access to the domain zone to add TXT records for domain validation
 
 Open Chrome Window with no Google Account
 
-### Onboarding to Google Cloud using a cloud identity account and a 3rd party managed domain - AWS Route53
+## Onboarding to Google Cloud using a cloud identity account and a 3rd party managed domain - AWS Route53
 
-### Onboarding to Google Cloud using a cloud identity account and a Google managed domain
+## Onboarding to Google Cloud using a cloud identity account and a Google managed domain
 .. continuing from "open chrome window" above
 
 
@@ -99,9 +99,9 @@ The org in this case will automatically create when you click the link below (no
 
 org is setup as the TXT record is against the root domain on the separate GCP account
 
-# Onboarding to Google Cloud using a workspacess account
+# Onboarding to Google Cloud using a workspace account
 
-## Onboarding to Google Cloud using a workspaces account and a Google managed domain
+## Onboarding to Google Cloud using a workspace account and a Google managed domain
 
 # Onboarding to Google Cloud using a gmail account
 
