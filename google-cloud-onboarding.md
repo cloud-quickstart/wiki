@@ -31,7 +31,9 @@ https://accounts.google.com/SignUpWithoutGmail
 
 Select gmail, register and launch a new browser - add new account - login
 
-images
+Create your Google Account (gmail)
+<img width="1197" alt="Screen Shot 2022-05-08 at 22 10 59" src="https://user-images.githubusercontent.com/24765473/167680004-9756a577-c654-4642-9e52-d4f8e97ef2d5.png">
+
 
 launch google cloud
 
