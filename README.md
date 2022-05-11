@@ -8,6 +8,7 @@ This is not an officially supported Google product
 
 [google-cloud-certification](https://github.com/cloud-quickstart/wiki/blob/main/google-cloud-certification.md)
 
+[google-cloud-onboarding](https://github.com/cloud-quickstart/wiki/blob/main/google-cloud-onboarding.md)
 
 # Google Cloud Platform
 [Google Cloud Whats new](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud) | 
