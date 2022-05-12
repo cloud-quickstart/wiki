@@ -10,6 +10,11 @@ https://cloud.google.com/docs/enterprise/setup-checklist
 
 There are two types of google cloud accounts (workspace and cloud identity).  Cloud Identity has 2 types of accounts (gmail and 3rd party based (such as AWS Workmail).  There are 3 types of DNS Zone configurations (none, Google Domains, 3rd Party (such as AWS Route53).  Therefore there are 9 types of onboarding categories (3 x 3).
 
+see
+https://console.cloud.google.com/cloud-setup/organization?organizationId=0&orgonly=true&supportedpurview=organizationId,folder,project
+
+Workspaces accounts can also have cloud identity accounts
+
 ## Onboarding Category 1: Workspace Email -  GCP Domain
 
 This category is the common workspace and GCP organization domain hosted on Google Domains use case.
