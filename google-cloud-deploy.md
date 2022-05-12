@@ -75,6 +75,209 @@ NODE_VERSION: 1.21.10-gke.2000
 NUM_NODES: 3
 STATUS: RUNNING
 
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ mkdir deploy-quickstart
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ cd deploy-quickstart/
+michael@cloudshell:~/deploy-quickstart (pubsec-declarative-toolkit-ns)$
+
+michael@cloudshell:~/deploy-quickstart (pubsec-declarative-toolkit-ns)$ vi skaffold.yaml
+apiVersion: skaffold/v2beta16
+kind: Config
+deploy:
+  kubectl:
+    manifests:
+      - k8s-*
+      
+
+michael@cloudshell:~/deploy-quickstart (pubsec-declarative-toolkit-ns)$ vi k8s-pod.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: getting-started
+spec:
+  containers:
+  - name: echoserver
+    image: my-app-image
+    
+    
+michael@cloudshell:~/deploy-quickstart (pubsec-declarative-toolkit-ns)$ vi clouddeploy.yaml
+apiVersion: deploy.cloud.google.com/v1
+kind: DeliveryPipeline
+metadata:
+ name: my-demo-app-1
+description: main application pipeline
+serialPipeline:
+ stages:
+ - targetId: qsdev
+   profiles: []
+ - targetId: qsprod
+   profiles: []
+---
+
+apiVersion: deploy.cloud.google.com/v1
+kind: Target
+metadata:
+ name: qsdev
+description: development cluster
+gke:
+ cluster: projects/PROJECT_ID/locations/us-central1/clusters/quickstart-cluster-qsdev
+---
+
+apiVersion: deploy.cloud.google.com/v1
+kind: Target
+metadata:
+ name: qsprod
+description: production cluster
+gke:
+ cluster: projects/PROJECT_ID/locations/us-central1/clusters/quickstart-cluster-qsprod
+ 
+replace your PROJECT_ID above
+
+michael@cloudshell:~/deploy-quickstart (pubsec-declarative-toolkit-ns)$ gcloud deploy apply --file clouddeploy.yaml --region=us-central1 --project=pubsec-declarative-toolkit
+API [clouddeploy.googleapis.com] not enabled on project [871599849367]. Would you like to enable and retry (this will take a few minutes)? (y/N)?  y
+
+Enabling service [clouddeploy.googleapis.com] on project [871599849367]...
+ERROR: (gcloud.deploy.apply) PERMISSION_DENIED: Permission denied to enable service [clouddeploy.googleapis.com]
+Help Token: Ae-hA1P-Ogopd5_S0miqLnZiOcnG5YF_L3bP6C3NlGfw30lc4fgeAKnPKox5bpQLZBEv8dWCUIb9SSoKWWxdr_XUntrJsFbmNUylfWEvZ51vmPQI
+- '@type': type.googleapis.com/google.rpc.PreconditionFailure
+  violations:
+  - subject: '110002'
+    type: googleapis.com
+- '@type': type.googleapis.com/google.rpc.ErrorInfo
+  domain: serviceusage.googleapis.com
+  reason: AUTH_PERMISSION_DENIED
+
+
+```
+remember to enable the APIs in the right project
+<img width="597" alt="Screen Shot 2022-05-12 at 10 09 24 AM" src="https://user-images.githubusercontent.com/94715080/168094725-ce075b5e-ee27-4df7-b0e9-4803197e3bee.png">
+
+```
+still getting - check enabled services
+michael@cloudshell:~/deploy-quickstart (pubsec-declarative-toolkit-ns)$ gcloud deploy apply --file clouddeploy.yaml --region=us-central1 --project=pubsec-declarative-toolkit
+API [clouddeploy.googleapis.com] not enabled on project [871599849367]. Would you like to enable and retry (this will take a few minutes)? (y/N)?  y
+
+Enabling service [clouddeploy.googleapis.com] on project [871599849367]...
+ERROR: (gcloud.deploy.apply) PERMISSION_DENIED: Permission denied to enable service [clouddeploy.googleapis.com]
+Help Token: Ae-hA1P-Ogopd5_S0miqLnZiOcnG5YF_L3bP6C3NlGfw30lc4fgeAKnPKox5bpQLZBEv8dWCUIb9SSoKWWxdr_XUntrJsFbmNUylfWEvZ51vmPQI
+- '@type': type.googleapis.com/google.rpc.PreconditionFailure
+  violations:
+  - subject: '110002'
+    type: googleapis.com
+- '@type': type.googleapis.com/google.rpc.ErrorInfo
+  domain: serviceusage.googleapis.com
+  reason: AUTH_PERMISSION_DENIED
+michael@cloudshell:~/deploy-quickstart (pubsec-declarative-toolkit-ns)$ gcloud deploy apply --file clouddeploy.yaml --region=us-central1 --project=pubsec-declarative-toolkit
+API [clouddeploy.googleapis.com] not enabled on project [871599849367]. Would you like to enable and retry (this will take a few minutes)? (y/N)?  y
+
+Enabling service [clouddeploy.googleapis.com] on project [871599849367]...
+ERROR: (gcloud.deploy.apply) PERMISSION_DENIED: Permission denied to enable service [clouddeploy.googleapis.com]
+Help Token: Ae-hA1MC0Y5wTwMuDD43Ih6YQ_m586u671QTD9T1fFATVc8LePkurheP5DySxxjxxY8l1d7d9ImqSj2XovulpJtN7EleY8ZHawzBs80GDePiJfpx
+- '@type': type.googleapis.com/google.rpc.PreconditionFailure
+  violations:
+  - subject: '110002'
+    type: googleapis.com
+- '@type': type.googleapis.com/google.rpc.ErrorInfo
+  domain: serviceusage.googleapis.com
+  reason: AUTH_PERMISSION_DENIED
+michael@cloudshell:~/deploy-quickstart (pubsec-declarative-toolkit-ns)$ gcloud services list --enabled --project pubsec-declarative-toolkit-ns
+NAME: anthosconfigmanagement.googleapis.com
+TITLE: Anthos Config Management API
+
+NAME: autoscaling.googleapis.com
+TITLE: Cloud Autoscaling API
+
+NAME: bigquery.googleapis.com
+TITLE: BigQuery API
+
+NAME: bigquerymigration.googleapis.com
+TITLE: BigQuery Migration API
+
+NAME: bigquerystorage.googleapis.com
+TITLE: BigQuery Storage API
+
+NAME: cloudapis.googleapis.com
+TITLE: Google Cloud APIs
+
+NAME: cloudbuild.googleapis.com
+TITLE: Cloud Build API
+
+NAME: clouddebugger.googleapis.com
+TITLE: Cloud Debugger API
+
+NAME: clouddeploy.googleapis.com
+TITLE: Google Cloud Deploy API
+
+NAME: cloudresourcemanager.googleapis.com
+TITLE: Cloud Resource Manager API
+
+NAME: cloudtrace.googleapis.com
+TITLE: Cloud Trace API
+
+NAME: compute.googleapis.com
+TITLE: Compute Engine API
+
+NAME: container.googleapis.com
+TITLE: Kubernetes Engine API
+
+NAME: containerfilesystem.googleapis.com
+TITLE: Container File System API
+
+NAME: containerregistry.googleapis.com
+TITLE: Container Registry API
+
+NAME: datastore.googleapis.com
+TITLE: Cloud Datastore API
+
+NAME: gkeconnect.googleapis.com
+TITLE: GKE Connect API
+
+NAME: gkehub.googleapis.com
+TITLE: GKE Hub API
+
+NAME: iam.googleapis.com
+TITLE: Identity and Access Management (IAM) API
+
+NAME: iamcredentials.googleapis.com
+TITLE: IAM Service Account Credentials API
+
+NAME: krmapihosting.googleapis.com
+TITLE: KRM API Hosting API
+
+NAME: logging.googleapis.com
+TITLE: Cloud Logging API
+
+NAME: monitoring.googleapis.com
+TITLE: Cloud Monitoring API
+
+NAME: multiclustermetering.googleapis.com
+TITLE: Multi cluster metering API
+
+NAME: oslogin.googleapis.com
+TITLE: Cloud OS Login API
+
+NAME: pubsub.googleapis.com
+TITLE: Cloud Pub/Sub API
+
+NAME: servicemanagement.googleapis.com
+TITLE: Service Management API
+
+NAME: serviceusage.googleapis.com
+TITLE: Service Usage API
+
+NAME: sql-component.googleapis.com
+TITLE: Cloud SQL
+
+NAME: storage-api.googleapis.com
+TITLE: Google Cloud Storage JSON API
+
+NAME: storage-component.googleapis.com
+TITLE: Cloud Storage
+
+NAME: storage.googleapis.com
+TITLE: Cloud Storage API
+```
+
+```
 run for GCP project
 testing details
 
