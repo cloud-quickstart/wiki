@@ -149,6 +149,7 @@ Help Token: Ae-hA1P-Ogopd5_S0miqLnZiOcnG5YF_L3bP6C3NlGfw30lc4fgeAKnPKox5bpQLZBEv
 
 ```
 remember to enable the APIs in the right project
+
 <img width="597" alt="Screen Shot 2022-05-12 at 10 09 24 AM" src="https://user-images.githubusercontent.com/94715080/168094725-ce075b5e-ee27-4df7-b0e9-4803197e3bee.png">
 
 ```
@@ -275,6 +276,26 @@ TITLE: Cloud Storage
 
 NAME: storage.googleapis.com
 TITLE: Cloud Storage API
+
+
+was about to post to cloud-deploy chat on service enabled not recognized - turned out I was missing a -ns postfix on my project name and was targeting "an existing" project in another account 871599849367  - I will stick to using $PROJECT_ID variables like your scripts - the less typing the better
+
+PROJECT_ID: pubsec-declarative-toolkit-ns
+NAME: pubsec-declarative-toolkit-ns
+PROJECT_NUMBER: 1099466078563
+michael@cloudshell:~/deploy-quickstart (pubsec-declarative-toolkit-ns)$ gcloud services list --enabled --project pubsec-declarative-toolkit-ns | grep deploy
+NAME: clouddeploy.googleapis.com
+michael@cloudshell:~/deploy-quickstart (pubsec-declarative-toolkit-ns)$ gcloud deploy apply --file clouddeploy.yaml --region=us-central1 --project=pubsec-declarative-toolkit
+API [clouddeploy.googleapis.com] not enabled on project [871599849367]. Would you like to enable and retry (this will take a few minutes)? (y/N)?  ^C
+Command killed by keyboard interrupt
+
+michael@cloudshell:~/deploy-quickstart (pubsec-declarative-toolkit-ns)$ gcloud deploy apply --file clouddeploy.yaml --region=us-central1 --project=pubsec-declarative-toolkit-ns
+Waiting for the operation on resource projects/pubsec-declarative-toolkit-ns/locations/us-central1/deliveryPipelines/my-demo-app-1...done.   
+Created Cloud Deploy resource: projects/pubsec-declarative-toolkit-ns/locations/us-central1/deliveryPipelines/my-demo-app-1.
+Waiting for the operation on resource projects/pubsec-declarative-toolkit-ns/locations/us-central1/targets/qsdev...done.   
+Created Cloud Deploy resource: projects/pubsec-declarative-toolkit-ns/locations/us-central1/targets/qsdev.
+Waiting for the operation on resource projects/pubsec-declarative-toolkit-ns/locations/us-central1/targets/qsprod...done.
+
 ```
 
 ```
