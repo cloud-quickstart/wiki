@@ -29,6 +29,53 @@ Creating cluster quickstart-cluster-qsprod in us-central1...working..
 
 
 run 2
+https://cloud.google.com/deploy/docs/deploy-app-gke?hl=en_US&_ga=2.18067903.769556588.1652289145-414126292.1645547024
+
+<img width="953" alt="Screen Shot 2022-05-12 at 9 10 40 AM" src="https://user-images.githubusercontent.com/94715080/168082447-df42bc6f-3b6c-4eb2-9fc2-c1de8f8902df.png">
+
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud projects add-iam-policy-binding $PROJECT_ID --member=serviceAccount:$(gcloud projects describe $PROJECT_ID --format="value(projectNumber)")-compute@developer.gserviceaccount.com  --role="roles/clouddeploy.jobRunner"
+Updated IAM policy for project [pubsec-declarative-toolkit-ns].
+bindings:
+- members:
+  - serviceAccoun
+  
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud projects add-iam-policy-binding $PROJECT_ID \
+    --member=serviceAccount:$(gcloud projects describe $PROJECT_ID \
+    --format="value(projectNumber)")-compute@developer.gserviceaccount.com \
+    --role="roles/container.developer"
+Updated IAM policy for project [pubsec-declarative-toolkit-ns].  
+  
+
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud container clusters create-auto quickstart-cluster-qsdev --project=$PROJECT_ID --region=us-central1 && gcloud container clusters create-auto quickstart-cluster-qsprod --project=$PROJECT_ID --region=us-central1
+Note: The Pod address range limits the maximum size of the cluster. Please refer to https://cloud.google.com/kubernetes-engine/docs/how-to/flexible-pod-cidr to learn how to optimize IP address allocation.
+Creating cluster quickstart-cluster-qsdev in us-central1... Cluster is being health-checked (master is healthy)...done.     
+Created [https://container.googleapis.com/v1/projects/pubsec-declarative-toolkit-ns/zones/us-central1/clusters/quickstart-cluster-qsdev].
+To inspect the contents of your cluster, go to: https://console.cloud.google.com/kubernetes/workload_/gcloud/us-central1/quickstart-cluster-qsdev?project=pubsec-declarative-toolkit-ns
+kubeconfig entry generated for quickstart-cluster-qsdev.
+NAME: quickstart-cluster-qsdev
+LOCATION: us-central1
+MASTER_VERSION: 1.21.10-gke.2000
+MASTER_IP: 34.135.242.250
+MACHINE_TYPE: e2-medium
+NODE_VERSION: 1.21.10-gke.2000
+NUM_NODES: 3
+STATUS: RUNNING
+Note: The Pod address range limits the maximum size of the cluster. Please refer to https://cloud.google.com/kubernetes-engine/docs/how-to/flexible-pod-cidr to learn how to optimize IP address allocation.
+Creating cluster quickstart-cluster-qsprod in us-central1... Cluster is being deployed...working.    
+Creating cluster quickstart-cluster-qsprod in us-central1... Cluster is being health-checked (master is healthy)...done.     
+Created [https://container.googleapis.com/v1/projects/pubsec-declarative-toolkit-ns/zones/us-central1/clusters/quickstart-cluster-qsprod].
+To inspect the contents of your cluster, go to: https://console.cloud.google.com/kubernetes/workload_/gcloud/us-central1/quickstart-cluster-qsprod?project=pubsec-declarative-toolkit-ns
+kubeconfig entry generated for quickstart-cluster-qsprod.
+NAME: quickstart-cluster-qsprod
+LOCATION: us-central1
+MASTER_VERSION: 1.21.10-gke.2000
+MASTER_IP: 35.192.202.68
+MACHINE_TYPE: e2-medium
+NODE_VERSION: 1.21.10-gke.2000
+NUM_NODES: 3
+STATUS: RUNNING
+
+run for GCP project
 testing details
 
 rerun on anthos $800k 30d trial nimbostratus.info
