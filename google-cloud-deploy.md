@@ -25,6 +25,290 @@ NUM_NODES: 3
 STATUS: RUNNING
 Note: The Pod address range limits the maximum size of the cluster. Please refer to https://cloud.google.com/kubernetes-engine/docs/how-to/flexible-pod-cidr to learn how to optimize IP address allocation.
 Creating cluster quickstart-cluster-qsprod in us-central1...working..
+
+
+
+run 2
+testing details
+
+rerun on anthos $800k 30d trial nimbostratus.info
+
+michael@cloudshell:~$ gcloud config set project pubsec-declarative-toolkit-ns
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ unzip pubsec-declarative-toolkit.zip
+set billing on the project (make sure or request for quota 20+ over the default 5)
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud services enable krmapihosting.googleapis.com container.googleapis.com cloudresourcemanager.googleapis.com
+Operation "operations/acf.p2-1099466078563-4545516c-39b2-4f2c-ad81-e97396659272" finished successfully.
+
+e-hA1P6gyA86mXSWcVo3RqiY3Kfba8xzSymh3I01vIl05HG1_o8cMQJDn5eud8qO6ZxBo9_Bic7Z_JuFlCi2ZuXF50vmFmL1sYh9pRUoYyM9h_g
+- '@type': type.googleapis.com/google.rpc.PreconditionFailure
+  violations:
+  - subject: ?error_code=390001&project=1099466078563&services=container.googleapis.com&services=container.googleapis.com&services=compute.googleapis.com&services=compute.googleapis.com&services=compute.googleapis.com&services=containerregistry.googleapis.com
+    type: googleapis.com/billing-enabled
+- '@type': type.googleapis.com/google.rpc.ErrorInfo
+  domain: serviceusage.googleapis.com/billing-enabled
+  metadata:
+    project: '1099466078563'
+    services: container.googleapis.com,container.googleapis.com,compute.googleapis.com,compute.googleapis.com,compute.googleapis.com,containerregistry.googleapis.com
+  reason: UREQ_PROJECT_BILLING_NOT_FOUND
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud services enable krmapihosting.googleapis.com container.googleapis.com cloudresourcemanager.googleapis.com
+Operation "operations/acf.p2-1099466078563-4545516c-39b2-4f2c-ad81-e97396659272" finished successfully.
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ PROJECT_ID=pubsec-declarative-toolkit-ns
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ REGION=us-east1
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ SUBNET=config-control
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ NETWORK=config-control
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ CLUSTER=config-controller
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud compute networks create $NETWORK --subnet-mode=custom
+Created [https://www.googleapis.com/compute/v1/projects/pubsec-declarative-toolkit-ns/global/networks/config-control].
+NAME: config-control
+SUBNET_MODE: CUSTOM
+BGP_ROUTING_MODE: REGIONAL
+IPV4_RANGE:
+GATEWAY_IPV4:
+
+Instances on this network will not be reachable until firewall rules
+are created. As an example, you can allow all internal traffic between
+instances as well as SSH, RDP, and ICMP by running:
+
+$ gcloud compute firewall-rules create <FIREWALL_NAME> --network config-control --allow tcp,udp,icmp --source-ranges <IP_RANGE>
+$ gcloud compute firewall-rules create <FIREWALL_NAME> --network config-control --allow tcp:22,tcp:3389,icmp
+
+
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud compute networks subnets create $SUBNET --network $NETWORK --range 192.168.0.0/16 --region $REGION
+Created [https://www.googleapis.com/compute/v1/projects/pubsec-declarative-toolkit-ns/regions/us-east1/subnetworks/config-control].
+NAME: config-control
+REGION: us-east1
+NETWORK: config-control
+RANGE: 192.168.0.0/16
+STACK_TYPE: IPV4_ONLY
+IPV6_ACCESS_TYPE:
+INTERNAL_IPV6_PREFIX:
+EXTERNAL_IPV6_PREFIX:
+
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud anthos config controller create $CLUSTER --location $REGION --network $NETWORK --subnet $SUBNET
+Create request issued for: [config-controller]
+Waiting for operation [projects/pubsec-declarative-toolkit-ns/locations/us-east1/operations/operation-1652293623494-5dec0967e3790-ac228a1a-b61cfc97] to complete...working.
+
+1428-1443 = 15min
+
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud anthos config controller create $CLUSTER --location $REGION --network $NETWORK --subnet $SUBNET
+Create request issued for: [config-controller]
+Waiting for operation [projects/pubsec-declarative-toolkit-ns/locations/us-east1/operations/operation-1652293623494-5dec0967e3790-ac228a1a-b61cfc97] to complete...working.  
+Waiting for operation [projects/pubsec-declarative-toolkit-ns/locations/us-east1/operations/operation-1652293623494-5dec0967e3790-ac228a1a-b61cfc97] to complete...working   
+Waiting for operation [projects/pubsec-declarative-toolkit-ns/locations/us-east1/operations/operation-1652293623494-5dec0967e3790-ac228a1a-b61cfc97] to complete...working...
+Waiting for operation [projects/pubsec-declarative-toolkit-ns/locations/us-east1/operations/operation-1652293623494-5dec0967e3790-ac228a1a-b61cfc97] to complete...working   
+Waiting for operation [projects/pubsec-declarative-toolkit-ns/locations/us-east1/operations/operation-1652293623494-5dec0967e3790-ac228a1a-b61cfc97] to complete...done.     
+Created instance [config-controller].
+Fetching cluster endpoint and auth data.
+kubeconfig entry generated for krmapihost-config-controller.
+kubeconfig entry generated for krmapihost-config-controller.
+
+efault Config Connector identity: [service-1099466078563@gcp-sa-yakima.iam.gserviceaccount.com].
+
+For example, to give Config Connector permission to manage Google Cloud resources in the same project:
+gcloud projects add-iam-policy-binding pubsec-declarative-toolkit-ns \
+    --member "serviceAccount:service-1099466078563@gcp-sa-yakima.iam.gserviceaccount.com" \
+    --role "roles/owner" \
+    --project pubsec-declarative-toolkit-ns
+
+from
+gcloud container clusters get-credentials $CLUSTER --region $REGION
+to
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud container clusters get-credentials krmapihost-$CLUSTER --region $REGION
+Fetching cluster endpoint and auth data.
+kubeconfig entry generated for krmapihost-config-controller.
+
+ael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ kubens config-control
+Context "gke_pubsec-declarative-toolkit-ns_us-east1_krmapihost-config-controller" modified.
+Active namespace is "config-control".
+
+
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ ORG_ID=$(gcloud projects get-ancestors $PROJECT_ID --format='get(id)' | tail -1)
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ echo $ORG_ID
+19...
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ BILLING_ID=$(gcloud alpha billing projects describe $PROJECT_ID '--format=value(billingAccountName)' | sed 's/.*\///')
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ echo $BILLING_ID
+01...A5
+
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ export ORG_ID=$ORG_ID
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ export SA_EMAIL="$(kubectl get ConfigConnectorContext -n config-control \
+    -o jsonpath='{.items[0].spec.googleServiceAccount}' 2> /dev/null)"
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ echo $SA_EMAIL
+service-10...63@gcp-sa-yakima.iam.gserviceaccount.com
+
+
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud organizations add-iam-policy-binding "${ORG_ID}" --member "serviceAccount:${SA_EMAIL}" --role "roles/resourcemanager.folderAdmin"
+Updated IAM policy for organization [197381943134].
+auditConfigs:
+- auditLogConfigs:
+  - logType: DATA_WRITE
+  - logType: DATA_READ
+  - logType: ADMIN_READ
+  service: allServices
+bindings:
+- members:
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  role: roles/accesscontextmanager.policyAdmin
+- members:
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  role: roles/bigquery.dataEditor
+- members:
+  - group:gcp-billing-admins@nimbostratus.info
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - user:superadmin@nimbostratus.info
+  role: roles/billing.admin
+- members:
+  - domain:nimbostratus.info
+  - group:gcp-billing-admins@nimbostratus.info
+  role: roles/billing.creator
+- members:
+  - user:michael@nimbostratus.info
+  role: roles/billing.projectManager
+- members:
+  - group:gcp-organization-admins@nimbostratus.info
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  role: roles/billing.user
+- members:
+  - group:billingdata@nimbostratus.info
+  - group:sscbroker@nimbostratus.info
+  role: roles/billing.viewer
+- members:
+  - group:sscbroker@nimbostratus.info
+  role: roles/cloudasset.viewer
+- members:
+  - group:gcp-organization-admins@nimbostratus.info
+  role: roles/cloudsupport.admin
+- members:
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  role: roles/compute.admin
+- members:
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  role: roles/compute.networkAdmin
+- members:
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  role: roles/compute.xpnAdmin
+- members:
+  - group:gcp-organization-admins@nimbostratus.info
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  role: roles/iam.organizationRoleAdmin
+- members:
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  role: roles/iam.securityAdmin
+- members:
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  role: roles/iam.serviceAccountAdmin
+- members:
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  - user:michael@nimbostratus.info
+  role: roles/iam.serviceAccountTokenCreator
+- members:
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  role: roles/logging.admin
+- members:
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  role: roles/logging.configWriter
+- members:
+  - group:gcp-organization-admins@nimbostratus.info
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  - user:michael@nimbostratus.info
+  role: roles/orgpolicy.policyAdmin
+- members:
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - user:michael@nimbostratus.info
+  - user:superadmin@nimbostratus.info
+  role: roles/owner
+- members:
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  role: roles/pubsub.admin
+- members:
+  - group:gcp-organization-admins@nimbostratus.info
+  - serviceAccount:service-1099466078563@gcp-sa-yakima.iam.gserviceaccount.com
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  - user:michael@nimbostratus.info
+  - user:superadmin@nimbostratus.info
+  role: roles/resourcemanager.folderAdmin
+- members:
+  - group:gcp-organization-admins@nimbostratus.info
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  - user:michael@nimbostratus.info
+  - user:superadmin@nimbostratus.info
+  role: roles/resourcemanager.organizationAdmin
+- members:
+  - group:gcp-billing-admins@nimbostratus.info
+  role: roles/resourcemanager.organizationViewer
+- members:
+  - domain:nimbostratus.info
+  - group:gcp-organization-admins@nimbostratus.info
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  - user:michael@nimbostratus.info
+  role: roles/resourcemanager.projectCreator
+- members:
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  role: roles/resourcemanager.projectDeleter
+- members:
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  role: roles/resourcemanager.projectIamAdmin
+- members:
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  role: roles/resourcemanager.projectMover
+- members:
+  - user:michael@nimbostratus.info
+  role: roles/resourcemanager.tagAdmin
+- members:
+  - group:gcp-organization-admins@nimbostratus.info
+  - user:michael@nimbostratus.info
+  role: roles/securitycenter.admin
+- members:
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  role: roles/serviceusage.serviceUsageAdmin
+- members:
+  - serviceAccount:tfadmin-dev@dev-seed-project.iam.gserviceaccount.com
+  - serviceAccount:tfadmin2-dev@dev-seed-project.iam.gserviceaccount.com
+  role: roles/storage.admin
+etag: BwXewPlEjNA=
+version: 1
+
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud organizations add-iam-policy-binding "${ORG_ID}" --member "serviceAccount:${SA_EMAIL}" --role "roles/resourcemanager.folderAdmin"
+
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud organizations add-iam-policy-binding "${ORG_ID}" --member "serviceAccount:${SA_EMAIL}" --role "roles/resourcemanager.projectCreator"
+
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud organizations add-iam-policy-binding "${ORG_ID}" --member "serviceAccount:${SA_EMAIL}" --role "roles/resourcemanager.projectDeleter"
+
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud organizations add-iam-policy-binding "${ORG_ID}" --member "serviceAccount:${SA_EMAIL}" --role "roles/orgpolicy.policyAdmin"
+
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud organizations add-iam-policy-binding "${ORG_ID}" --member "serviceAccount:${SA_EMAIL}" --role "roles/iam.securityAdmin"
+
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud organizations add-iam-policy-binding "${ORG_ID}" --member "serviceAccount:${SA_EMAIL}" --role "roles/serviceusage.serviceUsageConsumer"
+
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud organizations add-iam-policy-binding "${ORG_ID}" --member "serviceAccount:${SA_EMAIL}" --role "roles/billing.user"
+
+
+Thanks Chris - better creds
+
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ gcloud anthos config controller get-credentials $CLUSTER --location $REGION
+Fetching cluster endpoint and auth data.
+kubeconfig entry generated for krmapihost-config-controller.
+michael@cloudshell:~ (pubsec-declarative-toolkit-ns)$ kubens config-control
+Context "gke_pubsec-declarative-toolkit-ns_us-east1_krmapihost-config-controller" modified.
+Active namespace is "config-control".
+
 ```
 
 
