@@ -6,6 +6,38 @@ https://cloud.google.com/billing/docs/onboarding-checklist
 
 https://cloud.google.com/docs/enterprise/setup-checklist
 
+#Google Cloud Onboarding Categories
+
+There are two types of google cloud accounts (workspace and cloud identity).  Cloud Identity has 2 types of accounts (gmail and 3rd party based (such as AWS Workmail).  There are 3 types of DNS Zone configurations (none, Google Domains, 3rd Party (such as AWS Route53).  Therefore there are 9 types of onboarding categories (3 x 3).
+
+## Onboarding Category 1: Workspace Email -  GCP Domain
+
+This category is the common workspace and GCP organization domain hosted on Google Domains use case.
+
+## Onboarding Category 2: 3rd party Email -  GCP Domain
+
+This category is where the client uses their own email system but has the organization domain with GCP
+
+## Onboarding Category 3: Gmail Email -  GCP Domain
+
+This category is where the client uses a new gmail email with optional redirect records on a GCP hosted domain for their organization
+
+## Onboarding Category 5: 3rd party Email - 3rd party Domain
+
+This category is common for organizations new to GCP or multicloud where both the email system and DNS hosting zone are 3rd party
+
+## Onboarding Category 6: Gmail Email - 3rd party Domain
+
+This category is a variant of category 3 where there is a gmail account with option redirect where the organization zone records are on a 3rd party DNS system
+
+## Onboarding Category 8: 3rd party Email - no Domain
+
+This category is common for individual consumers where they do not have a gmail account or any domain.  This option will not have an organization top node in IAM
+
+## Onboarding Category 9: Gmail  Email - no Domain
+
+This category is common for individual consumers where they gmail account but no domain.  This option will not have an organization top node in IAM
+
 # Onboarding to Google Cloud using a cloud identity account
 ## Google Cloud Identity
 
