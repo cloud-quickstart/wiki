@@ -297,6 +297,10 @@ Created Cloud Deploy resource: projects/pubsec-declarative-toolkit-ns/locations/
 Waiting for the operation on resource projects/pubsec-declarative-toolkit-ns/locations/us-central1/targets/qsprod...done.
 
 ```
+<img width="1524" alt="Screen Shot 2022-05-12 at 10 33 32 AM" src="https://user-images.githubusercontent.com/94715080/168099902-65bfd370-cd46-4343-bb54-15437a4d298a.png">
+
+<img width="1218" alt="Screen Shot 2022-05-12 at 10 34 04 AM" src="https://user-images.githubusercontent.com/94715080/168100012-66738fd3-d154-450c-b7e5-a7f79a919740.png">
+
 
 ```
 run for GCP project
