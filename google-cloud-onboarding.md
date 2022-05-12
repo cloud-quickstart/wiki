@@ -26,6 +26,17 @@ This category is where the client uses a new gmail email with optional redirect 
 
 This category is common for organizations new to GCP or multicloud where both the email system and DNS hosting zone are 3rd party
 
+### Category 5a: First 3rd party Email - 3rd party Domain requires TXT verification
+
+### Category 5b: First 3rd party Email - 3rd party Domain requires indirect verification
+Usually copy/paste or email
+
+
+### Category 5c: second 3rd party Email - 3rd party Domain already verified
+- using the original super admin/owner create another cloud identity account with an email on the organization domain - with optional email forward to their work email.  Give rights such as "Owner" or "Folder Admin" to this 2nd+ user, when they login to console.cloud.google.com they will already have proper access to the organization (no domain validation required)
+
+
+
 ## Onboarding Category 6: Gmail Email - 3rd party Domain
 
 This category is a variant of category 3 where there is a gmail account with option redirect where the organization zone records are on a 3rd party DNS system
