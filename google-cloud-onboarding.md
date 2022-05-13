@@ -27,6 +27,10 @@ This category is where the client uses their own email system but has the organi
 
 This category is where the client uses a new gmail email with optional redirect records on a GCP hosted domain for their organization
 
+
+<img width="1521" alt="Screen Shot 2022-05-12 at 4 48 00 PM" src="https://user-images.githubusercontent.com/94715080/168199204-55532e78-8598-40cd-9f32-c91208538ced.png">
+
+
 <img width="1044" alt="Screen Shot 2022-05-12 at 4 48 26 PM" src="https://user-images.githubusercontent.com/94715080/168197208-15f34e2c-a8cd-4df3-bdf9-dd311dc8b1ad.png">
 
 <img width="1500" alt="Screen Shot 2022-05-12 at 4 50 01 PM" src="https://user-images.githubusercontent.com/94715080/168197228-6b667282-0fce-4201-b69b-6709bf151a7f.png">
@@ -168,7 +172,57 @@ Usually copy/paste or email
 ### Category 5c: second 3rd party Email - 3rd party Domain already verified
 - using the original super admin/owner create another cloud identity account with an email on the organization domain - with optional email forward to their work email.  Give rights such as "Owner" or "Folder Admin" to this 2nd+ user, when they login to console.cloud.google.com they will already have proper access to the organization (no domain validation required)
 
+<img width="1527" alt="Screen Shot 2022-05-12 at 4 20 49 PM" src="https://user-images.githubusercontent.com/94715080/168198608-ece10a2e-4197-4b63-a95e-208d657b1e14.png">
 
+<img width="784" alt="Screen Shot 2022-05-12 at 4 25 08 PM" src="https://user-images.githubusercontent.com/94715080/168198678-112aea4d-5c95-4c64-a6db-3cd01ee0ea46.png">
+
+<img width="934" alt="Screen Shot 2022-05-12 at 4 21 43 PM" src="https://user-images.githubusercontent.com/94715080/168198616-0598b688-87d7-4764-9a14-bca2c512676a.png">
+
+<img width="1202" alt="Screen Shot 2022-05-12 at 4 25 30 PM" src="https://user-images.githubusercontent.com/94715080/168198702-df2d5268-4720-45de-91c7-cbf1a0411daa.png">
+
+<img width="949" alt="Screen Shot 2022-05-12 at 4 26 49 PM" src="https://user-images.githubusercontent.com/94715080/168198722-f6d277d2-cb1e-4660-b51c-09235a38ed49.png">
+
+<img width="665" alt="Screen Shot 2022-05-12 at 4 28 21 PM" src="https://user-images.githubusercontent.com/94715080/168198735-327d0ff8-284a-48ab-89aa-dbec9871c185.png">
+
+<img width="1017" alt="Screen Shot 2022-05-12 at 4 28 49 PM" src="https://user-images.githubusercontent.com/94715080/168198749-09c95b9c-3264-41a0-9be7-0a0a650575f5.png">
+
+<img width="1125" alt="Screen Shot 2022-05-12 at 4 29 11 PM" src="https://user-images.githubusercontent.com/94715080/168198781-795f5634-4ce9-419a-856f-6810ff14eb9e.png">
+
+<img width="965" alt="Screen Shot 2022-05-12 at 4 29 30 PM" src="https://user-images.githubusercontent.com/94715080/168198792-345b48c7-6975-4042-9b92-9d428d7b0bb3.png">
+
+<img width="1192" alt="Screen Shot 2022-05-12 at 4 29 46 PM" src="https://user-images.githubusercontent.com/94715080/168198796-02db494d-8039-4b96-aec3-3901bc19d155.png">
+
+<img width="1021" alt="Screen Shot 2022-05-12 at 4 30 07 PM" src="https://user-images.githubusercontent.com/94715080/168198806-554b478e-c45b-44b3-bca4-ca084596ac7f.png">
+
+<img width="1019" alt="Screen Shot 2022-05-12 at 4 30 25 PM" src="https://user-images.githubusercontent.com/94715080/168198816-7952c8f8-1ec6-4f6d-b67b-bc99a015277e.png">
+
+<img width="1020" alt="Screen Shot 2022-05-12 at 4 31 03 PM" src="https://user-images.githubusercontent.com/94715080/168198824-13d46777-3462-420a-be8d-89f4b0c922aa.png">
+
+<img width="482" alt="Screen Shot 2022-05-12 at 4 31 46 PM" src="https://user-images.githubusercontent.com/94715080/168198838-95c23cbe-29ee-4493-8424-7c3dada3837b.png">
+
+<img width="1524" alt="Screen Shot 2022-05-12 at 4 32 01 PM" src="https://user-images.githubusercontent.com/94715080/168198851-5ec6473f-1499-477e-942d-cbe0e5b26d7d.png">
+
+<img width="1515" alt="Screen Shot 2022-05-12 at 4 32 25 PM" src="https://user-images.githubusercontent.com/94715080/168198865-787b7fde-deb6-463c-87c2-c7d182deed18.png">
+
+<img width="1125" alt="Screen Shot 2022-05-12 at 4 33 01 PM" src="https://user-images.githubusercontent.com/94715080/168198883-d30337f6-a186-4c5b-bc12-2262acd4a201.png">
+
+<img width="1127" alt="Screen Shot 2022-05-12 at 4 33 08 PM" src="https://user-images.githubusercontent.com/94715080/168198913-476e5984-d559-4049-8f6d-791006e89b4c.png">
+
+<img width="1525" alt="Screen Shot 2022-05-12 at 4 33 21 PM" src="https://user-images.githubusercontent.com/94715080/168198929-4e3d6591-45f3-400c-a863-768244827230.png">
+
+<img width="1010" alt="Screen Shot 2022-05-12 at 4 33 37 PM" src="https://user-images.githubusercontent.com/94715080/168198942-6ef93771-a32f-4e25-b274-a322d93959a3.png">
+
+<img width="1523" alt="Screen Shot 2022-05-12 at 4 33 49 PM" src="https://user-images.githubusercontent.com/94715080/168198949-f4bc1d3c-f343-490a-ad85-a88daba12fc1.png">
+
+<img width="1429" alt="Screen Shot 2022-05-12 at 4 35 05 PM" src="https://user-images.githubusercontent.com/94715080/168198989-e3e7ec2a-cd0c-404b-898e-8548e959fb68.png">
+
+<img width="1221" alt="Screen Shot 2022-05-12 at 4 36 23 PM" src="https://user-images.githubusercontent.com/94715080/168198998-0767ccf8-b07f-4ca8-a51f-29d5a38dc469.png">
+
+<img width="1396" alt="Screen Shot 2022-05-12 at 4 36 45 PM" src="https://user-images.githubusercontent.com/94715080/168199019-2f660ee4-616b-4862-bd85-a7982c48d0ad.png">
+
+<img width="1113" alt="Screen Shot 2022-05-12 at 4 36 57 PM" src="https://user-images.githubusercontent.com/94715080/168199038-409f725c-c0aa-4325-9a77-06e3982353a9.png">
+
+<img width="1125" alt="Screen Shot 2022-05-12 at 4 37 14 PM" src="https://user-images.githubusercontent.com/94715080/168199046-dfdc7981-42d9-49ce-a833-2f26bf15fd84.png">
 
 ## Onboarding Category 6: Gmail Email - 3rd party Domain
 
