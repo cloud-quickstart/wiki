@@ -1,4 +1,4 @@
-[Moved to pbmm-on-gcp-onboarding ](https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding/docs/google-cloud-onboarding.md)
+[Moved to pbmm-on-gcp-onboarding ](https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding/blob/main/docs/google-cloud-onboarding.md)
 
 
 Table Of Contents
