@@ -162,7 +162,7 @@ Check the email was forwarded to gmail
 
 <img width="1530" alt="Screen Shot 2022-05-12 at 5 41 54 PM" src="https://user-images.githubusercontent.com/94715080/168197911-3e21f0b2-337c-4525-bf46-580c06dbb688.png">
 
-Go back to the cloud identith wizard and click next to get to the new super admin account setup
+Go back to the cloud identity wizard and click next to get to the new super admin account setup
 
 <img width="1523" alt="Screen Shot 2022-05-12 at 5 42 23 PM" src="https://user-images.githubusercontent.com/94715080/168197932-f0f4d71d-af5f-42c2-9593-633a41eb5689.png">
 
