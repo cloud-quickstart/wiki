@@ -38,7 +38,7 @@ This cloud identity category is where the client uses a new gmail email with opt
 We will be using a domain from another google account that owns the domain we will use in our new account for the org (at this point we are using Google Domains as the DNS zone)
 <img width="1521" alt="Screen Shot 2022-05-12 at 4 48 00 PM" src="https://user-images.githubusercontent.com/94715080/168199204-55532e78-8598-40cd-9f32-c91208538ced.png">
 
-Start witn an incognito chrome window and goto https://accounts.google.com/SignUpWithoutGmail
+Start with an incognito chrome window and goto https://accounts.google.com/SignUpWithoutGmail
 <img width="1044" alt="Screen Shot 2022-05-12 at 4 48 26 PM" src="https://user-images.githubusercontent.com/94715080/168197208-15f34e2c-a8cd-4df3-bdf9-dd311dc8b1ad.png">
 
 create your new cloud identity account
