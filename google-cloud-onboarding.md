@@ -1,8 +1,7 @@
-TOC
+Table Of Contents
+* [Onboarding Category 3: Gmail Email -  GCP Domain](https://github.com/cloud-quickstart/wiki/blob/main/google-cloud-onboarding.md#onboarding-category-3-gmail-email---gcp-domain)
 
-[Onboarding Category 3: Gmail Email -  GCP Domain](https://github.com/cloud-quickstart/wiki/blob/main/google-cloud-onboarding.md#onboarding-category-3-gmail-email---gcp-domain)
-
-   [Category 5c: second 3rd party Email - 3rd party Domain already verified](https://github.com/cloud-quickstart/wiki/blob/main/google-cloud-onboarding.md#category-5c-second-3rd-party-email---3rd-party-domain-already-verified)
+* [Category 5c: second 3rd party Email - 3rd party Domain already verified](https://github.com/cloud-quickstart/wiki/blob/main/google-cloud-onboarding.md#category-5c-second-3rd-party-email---3rd-party-domain-already-verified)
 
 
 
