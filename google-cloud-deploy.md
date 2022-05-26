@@ -2,6 +2,8 @@
 
 ## Quickstart
 
+enable the anthos service first - or you will get unregistered anthos clusters (plain GKE clusters)
+
 https://cloud.google.com/deploy/docs/deploy-app-gke?_ga=2.236160513.-1647626204.1640188842
 
 ```
@@ -586,5 +588,7 @@ Active namespace is "config-control".
 
 ```
 
+## Deleting the Anthos cluster 
+It will be unregistered in the anthos cluster console if anthos was not enabled previously - https://console.cloud.google.com/anthos/clusters?referrer=search&project=pubsec-declarative-toolkit-ns.  You may delete the underlying GKE cluster in https://console.cloud.google.com/kubernetes/list/overview?referrer=search&project=pubsec-declarative-toolkit-ns
 
 https://cloud.google.com/anthos/docs/setup/disable-anthos
