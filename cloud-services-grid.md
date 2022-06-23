@@ -187,6 +187,10 @@ Workflow orchestration	Cloud Composer	Amazon Data Pipeline, AWS Glue,
 Managed Workflows for Apache Air
 Workflow orchestration	Workflows	AWS Step Functions
 Zero trust	BeyondCorp Enterprise	
+
+
+https://istio.io/latest/docs/tasks/observability/kiali/
+
 ## To categorize
 
 Shared reservations across projects - https://cloud.google.com/compute/docs/instances/reservations-shared#best_practices
