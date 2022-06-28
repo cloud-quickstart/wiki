@@ -35,4 +35,6 @@ https://dodcio.defense.gov/Portals/0/Documents/DoD%20Enterprise%20DevSecOps%20Re
 
 https://repo1.dso.mil/dsawg-devsecops/kubernetes-srg/k8-srg-artifacts/-/tree/master
 
+# Public Sector
+https://cloud.google.com/blog/topics/public-sector/announcing-google-public-sector
 
