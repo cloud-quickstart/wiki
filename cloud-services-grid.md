@@ -225,3 +225,6 @@ Google Cloud Deployment Manager exports to Kubernetes Resource Model or Terrafor
 ## Kubernetes
 https://www.protocol.com/enterprise/google-cloud-istio-cncf
 
+## Anthos
+- Anthos against kubernetes clusters on-prem, AWS, Azure
+
