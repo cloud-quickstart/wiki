@@ -5,32 +5,32 @@ in construction 2021-11
 - https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison
 
   `Service` | `category` | `GCP` | `GCP former` | `AWS` | `Azure` | `Open Source` | `Code Example` 
-  --- | --- | --- | --- | --- | --- | --- | ---
+  --- | --- | --- | --- | --- | --- | --- | --- 
   | | | | | | |
- CI/CD | | [Spinnaker](https://github.com/GoogleCloudPlatform/spinnaker-for-gcp) | | | | |
-  | | | [Dataflow](https://cloud.google.com/dataflow) | | | | [Apache Beam](https://beam.apache.org/) |
- ML | | [Dataprep](https://cloud.google.com/dataflow) | | | | [Trifacta wranger](https://www.trifacta.com/) |
- Hadoop | | [Dataproc](https://cloud.google.com/dataproc) | | | | |
- Data Warehouse | | [BigQuery](https://github.com/cloud-quickstart/wiki/blob/main/google-training.md#bigquery) | | | |  |
- DevOps | DevOps |  [DevOps](https://cloud.google.com/devops) [DORA - DevOps Research And Assessment](https://www.devops-research.com/quickcheck.html)] | | | | |
- Distributed Relational DBaaS | | [Bigtable](https://cloud.google.com/bigtable) | | | | Apache hbase |
- Event Handling | | [EventArc](https://cloud.google.com/eventarc/docs) | | EventBridge | | ||
- FaaS | Java Functions | [Functions Java](https://cloud.google.com/functions/docs/quickstart-java) | | | | |
- Java SDK | Java | [Java Client Libraries](https://github.com/googleapis/google-cloud-java) | | | | |
- Kubernetes | Security | [Gatekeeper](https://github.com/GoogleCloudPlatform/gatekeeper-securitycenter) : [GCP use of Gatekeeper](https://cloud.google.com/kubernetes-engine/docs/how-to/pod-security-policies-with-gatekeeper) | | [Open Policy Framework](https://github.com/open-policy-agent/gatekeeper) | |
- Kubernetes | Security | [Image trust using Notary](https://www.cncf.io/blog/2021/07/28/enforcing-image-trust-on-docker-containers-using-notary/) | | | |
- Kubernetes | serverless | Cloud Run | | Fargate | | knative with [CloudEvents](https://cloudevents.io/) capability | 
- MapReduce | | [Dataproc](https://cloud.google.com/dataproc) | | | | Apache Spark/Hadoop |
- Migrate | DB | | | | | |
- Migrate | VM | StratoZone and Migrate for CE | Velostrata | | | |
- Network | Tiered Network | [Premium Network tiers](https://cloud.google.com/network-tiers) | | | |
- Organizations (multiple) | IAM | [multiple orgs](https://cloud.google.com/resource-manager/docs/managing-multiple-orgs) | | | | |
- Private access | | [Private Service Connect](https://cloud.google.com/vpc/docs/private-service-connect)| | [VPC Endpoints](https://docs.aws.amazon.com/vpc/latest/privatelink/vpc-endpoints.html) | | |
- Spot VMs | | [Spot VMs](https://cloud.google.com/spot-vms) | | | | | 
- VPC | | | | | | | 
- VPC | CIDR | Dynamic CIDR resizing | | | | |
- VPC | Subnet across Regions | | | | | |
- VPC | SSH/RDP access | [Identity Aware Proxy](https://cloud.google.com/iap/docs/concepts-overview) | | | | |
+   CI/CD | | [Spinnaker](https://github.com/GoogleCloudPlatform/spinnaker-for-gcp) | | | | | 
+  | | | [Dataflow](https://cloud.google.com/dataflow) | | | | [Apache Beam](https://beam.apache.org/)
+  ML | | [Dataprep](https://cloud.google.com/dataflow) | | | | [Trifacta wranger](https://www.trifacta.com/) |
+  Hadoop | | [Dataproc](https://cloud.google.com/dataproc) | | | | |
+  Data Warehouse | | [BigQuery](https://github.com/cloud-quickstart/wiki/blob/main/google-training.md#bigquery) | | | |  |
+  DevOps | DevOps |  [DevOps](https://cloud.google.com/devops) [DORA - DevOps Research And Assessment](https://www.devops-research.com/quickcheck.html) | | | | |
+  Distributed Relational DBaaS | | [Bigtable](https://cloud.google.com/bigtable) | | | | Apache hbase |
+  Event Handling | | [EventArc](https://cloud.google.com/eventarc/docs) | | EventBridge | | ||
+  FaaS | Java Functions | [Functions Java](https://cloud.google.com/functions/docs/quickstart-java) | | | | |
+  Java SDK | Java | [Java Client Libraries](https://github.com/googleapis/google-cloud-java) | | | | |
+  Kubernetes | Security | [Gatekeeper](https://github.com/GoogleCloudPlatform/gatekeeper-securitycenter) : [GCP use of Gatekeeper](https://cloud.google.com/kubernetes-engine/docs/how-to/pod-security-policies-with-gatekeeper) | | [Open Policy Framework](https://github.com/open-policy-agent/gatekeeper) | |
+  Kubernetes | Security | [Image trust using Notary](https://www.cncf.io/blog/2021/07/28/enforcing-image-trust-on-docker-containers-using-notary/) | | | |
+  Kubernetes | serverless | Cloud Run | | Fargate | | knative with [CloudEvents](https://cloudevents.io/) capability | 
+  MapReduce | | [Dataproc](https://cloud.google.com/dataproc) | | | | Apache Spark/Hadoop |
+  Migrate | DB | | | | | |
+  Migrate | VM | StratoZone and Migrate for CE | Velostrata | | | |
+  Network | Tiered Network | [Premium Network tiers](https://cloud.google.com/network-tiers) | | | |
+  Organizations (multiple) | IAM | [multiple orgs](https://cloud.google.com/resource-manager/docs/managing-multiple-orgs) | | | | |
+  Private access | | [Private Service Connect](https://cloud.google.com/vpc/docs/private-service-connect)| | [VPC Endpoints](https://docs.aws.amazon.com/vpc/latest/privatelink/vpc-endpoints.html) | | |
+  Spot VMs | | [Spot VMs](https://cloud.google.com/spot-vms) | | | | | 
+  VPC | | | | | | | 
+  VPC | CIDR | Dynamic CIDR resizing | | | | |
+  VPC | Subnet across Regions | | | | | |
+  VPC | SSH/RDP access | [Identity Aware Proxy](https://cloud.google.com/iap/docs/concepts-overview) | | | | |
 
 
   AI	Video AI	Amazon Rekognition Video
