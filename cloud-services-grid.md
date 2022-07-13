@@ -33,6 +33,13 @@ in construction 2021-11
   VPC | SSH/RDP access | [Identity Aware Proxy](https://cloud.google.com/iap/docs/concepts-overview) | | | | |
 
 
+## Converting from AWS to GCP
+- AWS Cloud Formation to GCP Deployment Manager 
+- GCP DM to Terraform/KRM/KCC
+https://cloud.google.com/deployment-manager/docs/dm-convert/convert
+
+## Converting from Azure to GCP
+
   AI	Video AI	Amazon Rekognition Video
 API management	Apigee API Management	Amazon API Gateway
 Audit logging	Cloud Audit Logs	AWS CloudTrail
