@@ -8,6 +8,7 @@
 - https://github.com/GoogleCloudPlatform/k8s-config-connector
 - https://skaffold.dev/
 - https://cloud.google.com/skaffold
+- https://github.com/GoogleContainerTools/skaffold
 
 ## Quickstart
 
