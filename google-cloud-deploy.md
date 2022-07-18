@@ -1,5 +1,14 @@
 # Google Cloud Deploy
 
+# Links
+- https://cloud.google.com/deploy
+- https://kpt.dev/
+- https://cloud.google.com/anthos-config-management/docs/concepts/config-controller-overview
+- https://cloud.google.com/config-connector/docs/overview
+- https://github.com/GoogleCloudPlatform/k8s-config-connector
+- https://skaffold.dev/
+- https://cloud.google.com/skaffold
+
 ## Quickstart
 
 enable the anthos service first - or you will get unregistered anthos clusters (plain GKE clusters)
