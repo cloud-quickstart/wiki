@@ -2,6 +2,8 @@
 
 # Google Cloud Training
 
+### Google Cloud
+
 ## [BigQuery](https://console.cloud.google.com/bigquery) 
 [BigQuery Free Tier](https://cloud.google.com/free/docs/gcp-free-tier/#bigquery)
 
