@@ -1,4 +1,13 @@
 # Google Training
+- Start with Google Cloud Docs https://cloud.google.com/docs - These are the most up to date with the GCP platform
+- The main GCP training site is at https://www.cloudskillsboost.google/
+- The GCP Cerification sites https://cloud.google.com/certification are excellent training - start with the Cloud Digital Leader training - https://cloud.google.com/training/business#cloud-digital-leader-path
+- Refer to my Google section on my previous confluence - http://wiki.obrienlabs.cloud/display/DEV/Google
+- The GCP Architecture section https://cloud.google.com/architecture
+- The GCP DevOps section https://cloud.google.com/devops
+- The GCP Developer Blog https://cloud.google.com/blog/topics/developers-practitioners
+- 
+- 
 
 # Google Cloud Training
 
