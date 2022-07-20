@@ -10,6 +10,7 @@
 - https://cloud.google.com/skaffold
 - https://github.com/GoogleContainerTools/skaffold
 - https://github.com/GoogleContainerTools/kpt-functions-catalog
+- https://cloud.google.com/deploy/docs/deploy-app-gke
 
 ## Quickstart
 
