@@ -38,3 +38,7 @@ https://repo1.dso.mil/dsawg-devsecops/kubernetes-srg/k8-srg-artifacts/-/tree/mas
 # Public Sector
 https://cloud.google.com/blog/topics/public-sector/announcing-google-public-sector
 
+# SSO
+## Active directory
+- https://cloud.google.com/architecture/identity/federating-gcp-with-active-directory-configuring-single-sign-on
+
