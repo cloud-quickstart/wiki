@@ -9,6 +9,7 @@
 - https://skaffold.dev/
 - https://cloud.google.com/skaffold
 - https://github.com/GoogleContainerTools/skaffold
+- https://github.com/GoogleContainerTools/kpt-functions-catalog
 
 ## Quickstart
 
