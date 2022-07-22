@@ -4,6 +4,8 @@ in construction 2021-11
 - Use the new "All Products" page https://console.cloud.google.com/products
 - https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison
 
+- TODO Add GCP tier 1/2/3
+
   `Service` | `category` | `GCP` | `GCP former` | `AWS` | `Azure` | `Open Source` | `Code Example` 
   --- | --- | --- | --- | --- | --- | --- | --- 
   | | | | | | |
