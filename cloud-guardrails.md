@@ -4,6 +4,7 @@
 ---|---|---|---|---
 IAM modification | Google | | "Use Google Cloud's operations suite to set up alerts that will notify you when a SetIamPolicy() API call is made. This will send an alert when anyone modifies any IAM policy." | https://cloud.google.com/resource-manager/docs/super-admin-best-practices
 
+https://wiki.gccollab.ca/index.php?title=GC_Cloud_Infocentre&mobileaction=toggle_view_desktop
 
 ## Google Cloud Guardrails
 https://github.com/canada-ca/accelerators_accelerateurs-gcp
