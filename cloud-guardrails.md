@@ -45,3 +45,6 @@ https://cloud.google.com/blog/topics/public-sector/announcing-google-public-sect
 ## Active directory
 - https://cloud.google.com/architecture/identity/federating-gcp-with-active-directory-configuring-single-sign-on
 
+# Compliance and Governance
+- https://cloudonair.withgoogle.com/events/compliance-with-confidence
+
