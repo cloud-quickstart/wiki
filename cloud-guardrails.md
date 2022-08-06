@@ -2,6 +2,7 @@
 ## Google Cloud Landing Zones
 - https://cloud.google.com/architecture/landing-zones
 - https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding
+- https://cloud.google.com/anthos-config-management/docs/tutorials/landing-zone
 - 
 # Guardrails for Cloud
 
