@@ -54,3 +54,7 @@ https://cloud.google.com/blog/topics/public-sector/announcing-google-public-sect
 # Compliance and Governance
 - https://cloudonair.withgoogle.com/events/compliance-with-confidence
 
+
+# TODO
+## GCP workspaces rules
+https://admin.google.com/ac/ax
