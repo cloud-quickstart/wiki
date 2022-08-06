@@ -337,6 +337,16 @@ Some things to try next:
 gcloud auth list
 gcloud config list project
 
+
+## gcloud shell configuration
+### Changing to Java 17 from 11 in the shell
+### Configuring github credentials 
+```
+michael@cloudshell:~$ git config --global user.email "michael@"
+michael@cloudshell:~$ git config --global user.name "Michael "
+```
+### Using a service account
+
 # Google Kubernetes Engine - GKE
 ## GKE Quickstart
 
