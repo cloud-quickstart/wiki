@@ -1,3 +1,8 @@
+# Landing Zones for Cloud
+## Google Cloud Landing Zones
+- https://cloud.google.com/architecture/landing-zones
+- https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding
+- 
 # Guardrails for Cloud
 
 `Guardrail` | `CSP` | `Reference` | `Details` | `Links`
