@@ -14,6 +14,8 @@ This is not an officially supported Google product
 [Google Cloud Whats new](https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud) | 
 ## Developer Setup
 ### Installing the Google Cloud SDK
+- https://github.com/cloud-quickstart/gcp-landing-zone (GCP Java SDK in progress)
+
 ### Installing the Google Cloud SDK on Windows
 
 https://cloud.google.com/sdk/docs/cheatsheet
