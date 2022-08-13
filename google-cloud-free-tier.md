@@ -21,6 +21,16 @@ Note: you will need to do the introductory lab to unlock your credits - the emai
 
 
 ## Google Cloud free tier service levels
+https://cloud.google.com/free/docs/free-cloud-features
+
+### Allways Free GCP
+https://cloud.google.com/free/docs/free-cloud-features#free-tier-usage-limits
+
+Option | Service | Quota | $Estimate | Details
+---|---|---|---|---
+BigQuery | | | | 
+Compute | e2-micro | 1/m | https://cloud.google.com/products/calculator#id=0a2faebd-55df-469a-a226-4df99d738da1 |only us-west-1 us-central1 us-east-1 
+Maps | | 200/m | | https://developers.google.com/maps/billing-and-pricing/billing#monthly
 
 ## Groups
 https://gdg.community.dev/gdg-cloud-ottawa/
