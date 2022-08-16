@@ -6,8 +6,7 @@
 - The GCP Architecture section https://cloud.google.com/architecture
 - The GCP DevOps section https://cloud.google.com/devops
 - The GCP Developer Blog https://cloud.google.com/blog/topics/developers-practitioners
-- 
-- 
+- The GCP Security Summit July 2022 https://cloudonair.withgoogle.com/events/summit-security
 
 # Google Cloud Training
 
