@@ -19,3 +19,7 @@ Adding permissions
 - https://developers.google.com/maps/documentation/javascript
 - googlemaps.visualization.HeatmapLayer - [https://github.com/obrienlabs/biometric/blob/master/biometric.web/src/main/webapp/heart.html#L47](https://github.com/obrienlabs/biometric/blob/master/biometric.web/src/main/webapp/heart.html#L304)
 - https://developers.google.com/maps/solutions/checkout/best-practices
+
+
+## Google Earth Engine
+- Example:  https://geo.ca/emergency
