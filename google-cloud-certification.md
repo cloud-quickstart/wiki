@@ -1,5 +1,14 @@
 # Google Cloud Certification
 
+## Areas to review
+- non-GKE deployment frameworks like appspot
+- [Firebase Test Lab](https://firebase.google.com/docs/test-lab) iOS and Android testing
+- Pub/Sub - triage producer perf
+- gke horizantal pod autoscaling
+- GKE autopilot security - https://unit42.paloaltonetworks.com/gke-autopilot-vulnerabilities/
+- Service Perimeter - https://cloud.google.com/vpc-service-controls/docs/service-perimeters
+
+
 ## Google Services
 
 ## SRE Principles
@@ -191,6 +200,7 @@ Declare all-clear
 Document root causes
 Create and prioritize action items
 Communicate postmortem to stakeholders
+
 
 
 # Links
