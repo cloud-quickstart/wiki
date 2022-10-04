@@ -1,6 +1,7 @@
 # Google Cloud Certification
 
 ## Areas to review
+- [Binary Authorization](https://cloud.google.com/binary-authorization) - only trusted containers are deployed to GKE or Cloud Run
 - non-GKE deployment frameworks like appspot
 - [Firebase Test Lab](https://firebase.google.com/docs/test-lab) iOS and Android testing
 - Pub/Sub - triage producer perf
