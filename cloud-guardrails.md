@@ -1,4 +1,7 @@
 # Landing Zones for Cloud
+## Policy Governance Compliance Audit Automation
+- Google Cloud Security Command Center Premium - [Compliance tab](https://cloud.google.com/security-command-center/docs/how-to-use-security-command-center#compliance_tab) - requires additional automation on evidence capture
+- https://aws.amazon.com/audit-manager/
 ## Google Cloud Landing Zones
 - https://github.com/cloud-quickstart/gcp-landing-zone (GCP Java SDK in progress)
 - https://cloud.google.com/architecture/landing-zones 
