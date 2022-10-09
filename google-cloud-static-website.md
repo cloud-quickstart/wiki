@@ -12,3 +12,8 @@
 
 ## Google Domains A record entry
 ![image](https://user-images.githubusercontent.com/24765473/194759472-b3fbe1f3-afca-490d-941a-c7f9de4e2fac.png)
+
+## Load Balancer Stats
+
+![image](https://user-images.githubusercontent.com/24765473/194759810-f5425937-b26f-40fb-870d-c3bcb1e1f286.png)
+
