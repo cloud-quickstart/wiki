@@ -8,6 +8,9 @@
 - Base blog content - https://github.com/GoogleCloudPlatform/pubsec-declarative-toolkit/blob/dev/solutions/landing-zone/architecture.md
 - Blog
 
+## Implementing ITSG Security Controls in a GCP PBMM Landing Zone
+- Base blog content - https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding/blob/main/docs/google-cloud-security-controls.md
+
 ## Example Canary/Workload for Dynamic Security Controls Compliance in GCP Landing Zones
 - Base blog content - https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding/blob/main/docs/google-cloud-landingzone-traffic-generation.md
 - Blog
