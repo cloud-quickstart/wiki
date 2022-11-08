@@ -40,7 +40,8 @@
 - Blog
 
 ## Using Google Cloud Deploy in a GCP Landing Zone for CI/CD Pipelines
-- Base blog content - https://github.com/GoogleCloudPlatform/pubsec-declarative-toolkit/blob/dev/solutions/landing-zone/architecture.md#cloud-deploy-pipelines and http://wiki.obrienlabs.cloud/display/DEV/Google+Cloud+Deploy
+- Base blog content - https://github.com/GoogleCloudPlatform/pubsec-declarative-toolkit/blob/dev/solutions/landing-zone/architecture.md#cloud-deploy-pipelines
+- Base blog content - http://wiki.obrienlabs.cloud/display/DEV/Google+Cloud+Deploy
 - Blog
 
 ## Heartrate/GPS IoT Streaming to Google Cloud
@@ -49,6 +50,7 @@
 
 ## Serverless Wiki/Websites on Google Cloud
 - Base blog content - http://wiki.obrienlabs.cloud/display/DEV/Serverless+Websites+on+Google+Cloud
+- Base blog content - https://github.com/cloud-quickstart/wiki/blob/main/google-cloud-static-website.md
 - Blog
 
 
