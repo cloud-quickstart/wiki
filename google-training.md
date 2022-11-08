@@ -7,6 +7,7 @@
 - The GCP DevOps section https://cloud.google.com/devops
 - The GCP Developer Blog https://cloud.google.com/blog/topics/developers-practitioners
 - The GCP Security Summit July 2022 https://cloudonair.withgoogle.com/events/summit-security
+- In Q3 2022 - GCP introduced the Google Cloud Innovators Plus program with cloud credits and support for certification - https://github.com/cloud-quickstart/wiki/blob/main/solutions.md
 
 # Google Cloud Training
 
