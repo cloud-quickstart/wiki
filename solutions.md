@@ -45,8 +45,20 @@
 - Blog
 
 ## Heartrate/GPS IoT Streaming to Google Cloud
+- https://github.com/cloud-quickstart/wiki/issues/16
+
 - Base blog content - http://wiki.obrienlabs.cloud/display/DEV/Biometric+Dual+Heart+Rate+Streaming+from+Mobile+Devices
 - Blog
+
+### VPC 
+
+```
+gcloud compute networks create biometric --project=biometric-ol --description=biometric --subnet-mode=custom --mtu=1460 --bgp-routing-mode=regional
+
+gcloud compute networks subnets create private --project=biometric-ol --range=10.0.0.0/24 --stack-type=IPV4_ONLY --network=biometric --region=us-central1 --enable-private-ip-google-access
+
+```
+### Cloud SQL Migration
 
 ## Serverless Wiki/Websites on Google Cloud
 - Base blog content - http://wiki.obrienlabs.cloud/display/DEV/Serverless+Websites+on+Google+Cloud
