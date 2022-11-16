@@ -86,3 +86,10 @@ gcloud compute instances create bastion2 --project=biometric-ol --zone=us-centra
 - https://github.com/cloud-quickstart/wiki/issues/12
 ## Hands-on: Use Migrate to Containers to containerize a VM and migrate the application to Anthos/GKE in Google Cloud
 - https://github.com/cloud-quickstart/wiki/issues/11
+
+
+## Service related
+
+### IAM
+#### Context Aware access to GCP Console and APIs
+- see https://github.com/GoogleCloudPlatform/pubsec-declarative-toolkit/issues/172
