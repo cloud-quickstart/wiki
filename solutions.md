@@ -58,6 +58,19 @@ gcloud compute networks create biometric --project=biometric-ol --description=bi
 gcloud compute networks subnets create private --project=biometric-ol --range=10.0.0.0/24 --stack-type=IPV4_ONLY --network=biometric --region=us-central1 --enable-private-ip-google-access
 
 ```
+
+Enable PSA - Private Services Access
+https://cloud.google.com/vpc/docs/configure-private-services-access?_ga=2.179763492.-1098396564.1647194753
+
+Cloud SQL Proxy
+https://cloud.google.com/sql/docs/mysql/sql-proxy?_ga=2.150451510.-1098396564.1647194753
+
+### Deploy a Bastion
+https://console.cloud.google.com/compute/instancesAdd?walkthrough_id=sql--quickstart-sql-gce--quickstart-sql-gce-index&project=biometric-ol&supportedpurview=project
+```
+gcloud compute instances create bastion2 --project=biometric-ol --zone=us-central1-a --machine-type=e2-micro --network-interface=network-tier=PREMIUM,subnet=default --metadata=enable-oslogin=true --can-ip-forward --maintenance-policy=MIGRATE --provisioning-model=STANDARD --service-account=690900791045-compute@developer.gserviceaccount.com --scopes=https://www.googleapis.com/auth/cloud-platform --tags=http-server,https-server --create-disk=auto-delete=yes,boot=yes,device-name=bastion2,image=projects/debian-cloud/global/images/debian-11-bullseye-v20221102,mode=rw,size=10,type=projects/biometric-ol/zones/us-central1-a/diskTypes/pd-balanced --no-shielded-secure-boot --shielded-vtpm --shielded-integrity-monitoring --reservation-affinity=any
+```
+
 ### Cloud SQL Migration
 
 ## Serverless Wiki/Websites on Google Cloud
