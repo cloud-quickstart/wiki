@@ -1,6 +1,7 @@
 # Kubernetes
 ## Kubernetes Engine: Qwik Start
-Note this lab may time out on us-central-1 periodically - taking up to 35 min to provision a GKE standard cluster instead of the usual 5.  If you restart the lab and get another region like us-west - GKE will start in around 10 min OK
+- duration 21 min of 30
+- Note this lab may time out on us-central-1 periodically - taking up to 35 min to provision a GKE standard cluster instead of the usual 5.  If you restart the lab and get another region like us-west - GKE will start in around 10 min OK
 
 ```
 Welcome to Cloud Shell! Type "help" to get started.
@@ -74,5 +75,7 @@ The following clusters will be deleted.
 
 Do you want to continue (Y/n)?  y
 
-Deleting cluster lab-cluster...working    
+Deleting cluster lab-cluster...working 
+Deleting cluster lab-cluster...done.     
+Deleted [https://container.googleapis.com/v1/projects/qwiklabs-gcp-02-aba13b76dd6e/zones/us-west1-c/clusters/lab-cluster].
 ```
