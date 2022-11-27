@@ -16,6 +16,9 @@ IAM modification | Google | | "Use Google Cloud's operations suite to set up ale
 
 https://wiki.gccollab.ca/index.php?title=GC_Cloud_Infocentre&mobileaction=toggle_view_desktop
 
+## Azure Cloud Guardrails
+https://github.com/Azure/GuardrailsSolutionAccelerator/blob/main/docs/controls.md#guardrail-12-configuration-of-cloud-marketplaces
+
 ## Google Cloud Guardrails
 https://github.com/canada-ca/accelerators_accelerateurs-gcp
 
