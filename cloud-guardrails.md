@@ -18,6 +18,7 @@ https://wiki.gccollab.ca/index.php?title=GC_Cloud_Infocentre&mobileaction=toggle
 
 ## Azure Cloud Guardrails
 https://github.com/Azure/GuardrailsSolutionAccelerator/blob/main/docs/controls.md#guardrail-12-configuration-of-cloud-marketplaces
+https://learn.microsoft.com/en-us/defender-cloud-apps/connect-google-gcp
 
 ## Google Cloud Guardrails
 https://github.com/canada-ca/accelerators_accelerateurs-gcp
