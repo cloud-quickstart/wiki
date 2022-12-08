@@ -1,4 +1,8 @@
 # Landing Zones for Cloud
+- Google Cloud PBMM Landing Zone: https://github.com/GoogleCloudPlatform/pubsec-declarative-toolkit
+- AWS Secure Environment Accelerator: https://github.com/aws-samples/aws-secure-environment-accelerator
+- Azure Landing Zones for Canadian Public Sector: https://github.com/Azure/CanadaPubSecALZ/
+- 
 ## Policy Governance Compliance Audit Automation
 - Google Cloud Security Command Center Premium - [Compliance tab](https://cloud.google.com/security-command-center/docs/how-to-use-security-command-center#compliance_tab) - requires additional automation on evidence capture
 - https://aws.amazon.com/audit-manager/
@@ -6,6 +10,7 @@
 - https://github.com/cloud-quickstart/gcp-landing-zone (GCP Java SDK in progress)
 - https://cloud.google.com/architecture/landing-zones 
 - https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding (Terraform)
+- Google Cloud PBMM Landing Zone: https://github.com/GoogleCloudPlatform/pubsec-declarative-toolkit (Kubernetes Config Controller)
 - https://cloud.google.com/anthos-config-management/docs/tutorials/landing-zone
 - 
 # Guardrails for Cloud
