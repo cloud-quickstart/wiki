@@ -5,8 +5,9 @@
 - https://cloud.google.com/docs/samples?language=java&product=cloudfunctions
 - CORS https://cloud.google.com/functions/docs/samples/functions-http-cors?hl=en
 ## Random function
-Location: ol.dev : kcc-lz-nnnn
-
+Location: ol.dev : was kcc-lz-nnnn - now eventstream.dev
+https://random2-hjcikuu52q-nn.a.run.app/?list=first,second,third,forth
+not
 https://random-3qd3vhjyca-nn.a.run.app/?list=first,second,third,forth
 
 
@@ -51,3 +52,6 @@ public class HelloHttpFunction implements HttpFunction {
   }
 }
 ```
+
+accidentally deleted
+https://console.cloud.google.com/functions/details/northamerica-northeast1/random?env=gen2&project=net-host-prj-nonprod-oldv2
