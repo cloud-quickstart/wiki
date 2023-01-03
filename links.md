@@ -1,10 +1,39 @@
 # Links
 
 ## Alphabetical
-[A](#a)
+[A](#a) | [B](#b) | [K](#k) | [L](#l) | [N](#n) | [P](#p) | [V](#v)
 ### A
 #### Access Context Manager
 - https://cloud.google.com/access-context-manager/docs/overview
+
+### B
+#### BeyondCorp Zero Trust
+- https://cloud.google.com/beyondcorp
+### K
+#### Kubernetes
+##### Kubernetes Release Artifact Signing in 1.26
+- https://kubernetes.io/blog/2022/12/12/kubernetes-release-artifact-signing/
+- 
+### L
+#### Load Balancer
+- https://cloud.google.com/load-balancing/docs/ssl
+
+### N
+#### Network Appliances
+- https://cloud.google.com/architecture/architecture-centralized-network-appliances-on-google-cloud#example_architecture_using_vpc_network_peering_and_internal_tcp_udp_load_balancer_as_next_hop
+### P
+#### Packet Mirroring
+- https://cloud.google.com/vpc/docs/packet-mirroring
+
+#### Private Services Access
+- https://cloud.google.com/vpc/docs/configure-private-services-access
+
+### V
+### VPC Firewall Rules
+- https://cloud.google.com/vpc/docs/firewalls#serviceaccounts
+#### VPC Service Controls
+- https://cloud.google.com/vpc-service-controls
+
 
 # Links to queue
 [Containers from Scratch)](https://www.youtube.com/watch?v=8fi7uSYlOdc)
