@@ -46,6 +46,8 @@ https://cloud.google.com/security/compliance/offerings#/regions=Canada
 
 https://github.com/aws-samples/aws-secure-environment-accelerator
 
+https://d1.awsstatic.com/events/reinvent/2019/AWS_Control_Tower_versus_AWS_Landing_Zone_GPSTEC203.pdf
+
 ## Azure Cloud Guardrails
 https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/governance/blueprints/samples/caf-migrate-landing-zone/deploy.md
 
