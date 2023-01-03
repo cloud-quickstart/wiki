@@ -9,6 +9,10 @@
 ### B
 #### BeyondCorp Zero Trust
 - https://cloud.google.com/beyondcorp
+
+### I
+#### Trusted Image Policies
+- https://cloud.google.com/compute/docs/images/restricting-image-access
 ### K
 #### Kubernetes
 ##### Kubernetes Release Artifact Signing in 1.26
