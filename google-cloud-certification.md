@@ -208,3 +208,4 @@ Communicate postmortem to stakeholders
 - [GCP Flowcharts](https://grumpygrace.dev/posts/gcp-flowcharts/#compute)
 - [sathishvj - all exam prep](https://sathishvj.medium.com/on-passing-all-google-cloud-certifications-54b2cc1e428c)
 - https://sites.google.com/robertsonmarketing.com/digitalassetdownloadportal/digital-toolkit?authuser=0
+- https://docs.google.com/document/d/1geAYSKyh4i44LNYNHxbwggicfjRBkoleGWWfgx-LBI0/edit?resourcekey=0-U_Za7iSr-3Z7zVOtHe7gWQ
