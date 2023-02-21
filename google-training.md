@@ -11,6 +11,9 @@
 
 # Google Cloud Training
 
+## AI
+- https://developers.google.com/machine-learning/crash-course/fairness/check-your-understanding#evaluating_for_bias
+- 
 ## [BigQuery](https://console.cloud.google.com/bigquery) 
 - [BigQuery Free Tier](https://cloud.google.com/free/docs/gcp-free-tier/#bigquery)
 - [BigQuery Docs](https://cloud.google.com/bigquery/docs/quickstarts)
