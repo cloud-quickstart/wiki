@@ -1,17 +1,18 @@
 # Solutions
 - https://github.com/cloud-quickstart/wiki/issues/14
-## Onboarding to GCP for Public Sector Organizations
+## Sol1: Onboarding to GCP for Public Sector Organizations
 - Base blog content - https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding/blob/main/docs/google-cloud-onboarding.md
 - Multi-Organization Billing - https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding/blob/main/docs/google-cloud-onboarding.md#billing
 - Blog
-## KCC Landing Zone Deployment
+## Sol2: KCC Landing Zone Deployment
 - Base blog content - https://github.com/GoogleCloudPlatform/pubsec-declarative-toolkit/blob/dev/solutions/landing-zone/architecture.md
-- Blog
+- Blog all LZ options - see https://github.com/orgs/CloudLandingZone/repositories
+- Blog LZ selection options (gcloud, krm/kcc, terraform) - see https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding/issues/243
 
-## Implementing ITSG Security Controls in a GCP PBMM Landing Zone
+## Sol3: Implementing ITSG Security Controls in a GCP PBMM Landing Zone
 - Base blog content - https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding/blob/main/docs/google-cloud-security-controls.md
 
-## Example Canary/Workload for Dynamic Security Controls Compliance in GCP Landing Zones
+## Sol4: Example Canary/Workload for Dynamic Security Controls Compliance in GCP Landing Zones
 - Base blog content - https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding/blob/main/docs/google-cloud-landingzone-traffic-generation.md
 - Blog
 
@@ -35,20 +36,25 @@
 
 # Developer Focused
 - http://wiki.obrienlabs.cloud/display/DEV/Google
-## Deploying Google Cloud Workstations in the GCP Landing Zone
+## SOL21: Deploying Google Cloud Workstations in the GCP Landing Zone
 - Base blog content - https://cloud.google.com/workstations
 - Blog
 
-## Using Google Cloud Deploy in a GCP Landing Zone for CI/CD Pipelines
+## SOL22: Using Google Cloud Deploy in a GCP Landing Zone for CI/CD Pipelines
 - Base blog content - https://github.com/GoogleCloudPlatform/pubsec-declarative-toolkit/blob/dev/solutions/landing-zone/architecture.md#cloud-deploy-pipelines
 - Base blog content - http://wiki.obrienlabs.cloud/display/DEV/Google+Cloud+Deploy
 - Blog
 
-## Heartrate/GPS IoT Streaming to Google Cloud
+## SOL23:Heartrate/GPS IoT Streaming to Google Cloud
 - https://github.com/cloud-quickstart/wiki/issues/16
 
 - Base blog content - http://wiki.obrienlabs.cloud/display/DEV/Biometric+Dual+Heart+Rate+Streaming+from+Mobile+Devices
 - Blog
+
+## SOL24: Remote Sensing Streaming to Google Cloud via Drone
+- Use a DJI Mavic 3 drone in dual mode.  Track DroneID via SDR and deploy an iphone/android payload running IoT software.
+- Both solutions stream to GCP for analysis
+- 
 
 ### VPC 
 
