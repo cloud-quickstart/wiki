@@ -40,7 +40,8 @@
 - https://cloud.google.com/blog/products/compliance/google-cloud-cli-terraform-validation-preview
 
 # Google Cloud Landing Zones
-[30 day Guardrails](https://github.com/canada-ca/accelerators_accelerateurs-gcp) | [blog: Chris Carty: Cloud-ready in Under 30 Days: accelerate safe and efficient Cloud onboarding with guardrails from Google Cloud](https://cloud.google.com/blog/topics/public-sector/cloud-ready-under-30-days-accelerate-safe-and-efficient-cloud-onboarding-guardrails-google-cloud)
+- See All relevant landing zone Fork references at https://github.com/orgs/CloudLandingZone/repositories
+- [30 day Guardrails](https://github.com/canada-ca/accelerators_accelerateurs-gcp) | [blog: Chris Carty: Cloud-ready in Under 30 Days: accelerate safe and efficient Cloud onboarding with guardrails from Google Cloud](https://cloud.google.com/blog/topics/public-sector/cloud-ready-under-30-days-accelerate-safe-and-efficient-cloud-onboarding-guardrails-google-cloud)
 
 [Terraform based Landing Zone](https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding) | 
   [blog: Mike Craigen: Meet Canadian compliance requirements with Protected B Landing Zone](https://cloud.google.com/blog/topics/public-sector/meet-canadian-compliance-requirements-protected-b-landing-zones)
