@@ -1,0 +1,1 @@
+- https://cloud.google.com/distributed-cloud/edge/latest/docs/requirements
