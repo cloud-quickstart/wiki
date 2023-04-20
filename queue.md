@@ -9,3 +9,4 @@
 
 ## 20230420
 - https://medium.com/cloud-security/creating-an-aws-backup-account-ea0d3c8e25b8
+- Google Public Sector Learning Path - https://www.cloudskillsboost.google/paths/110
