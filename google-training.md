@@ -1,4 +1,5 @@
 # Google Training
+- Google Public Sector Learning path - https://www.cloudskillsboost.google/paths/110
 - Start with Google Cloud Docs https://cloud.google.com/docs - These are the most up to date with the GCP platform
 - The main GCP training site is at https://www.cloudskillsboost.google/
 - The GCP Cerification sites https://cloud.google.com/certification are excellent training - start with the Cloud Digital Leader training - https://cloud.google.com/training/business#cloud-digital-leader-path
