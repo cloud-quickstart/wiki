@@ -7,6 +7,7 @@
 - https://cloud.google.com/access-context-manager/docs/overview
 
 ### B
+- https://github.com/GoogleCloudPlatform/bank-of-anthos | https://cloud.google.com/migrate/containers/docs | https://cloud.google.com/service-mesh/docs/migrate-istio-to-anthos-service-mesh
 #### BeyondCorp Zero Trust
 - https://cloud.google.com/beyondcorp
 
