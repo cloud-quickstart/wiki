@@ -12,3 +12,11 @@ On the watch turn off ADB debugging, selecte wireless debugging, pair with the c
 
 See new pixel watch on the Device Manager under the Physical tab
 <img width="1388" alt="Screen Shot 2022-11-07 at 20 45 17" src="https://user-images.githubusercontent.com/24765473/200453520-8dbbc66c-4796-497f-ac9a-d980d0549fc2.png">
+
+## Android related Languages
+- Java
+- React Native
+- Flutter
+- Go
+- Kotlin
+- 
