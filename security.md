@@ -15,7 +15,9 @@ Verify via DockerHub, GCP container analysis, GCP Artifact Registry
 
 <img width="1511" alt="_2422_container_scanning_Dockerhub_alternative" src="https://user-images.githubusercontent.com/94715080/169152202-08425e7f-2f4a-4b6f-a871-8f61188cc9b9.png">
 
-
+# DDOS
+- https://cloud.google.com/blog/products/identity-security/how-google-cloud-blocked-largest-layer-7-ddos-attack-at-46-million-rps
+- https://finance.yahoo.com/news/microsoft-azure-users-face-disruption-194103988.html
 
 # Articles
 - 20220516 [Why Google Cloud is providing security for AWS and Azure users too](https://www.protocol.com/enterprise/google-cloud-security-aws-azure) | Mandiant | Siemplify | https://console.cloud.google.com/apis/api/containeranalysis.googleapis.com/metrics
