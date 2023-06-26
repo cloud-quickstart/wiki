@@ -12,3 +12,5 @@
 - Google Public Sector Learning Path - https://www.cloudskillsboost.google/paths/110
 - https://cloud.google.com/assured-open-source-software/docs/remote-repository-access
 - https://cloud.google.com/architecture/migration-from-aws-get-started
+- IAP and GWT signed headers for apps
+- CUDA Compute Level 8.9 (A102) NVidia RTX 4090 MSI Suprim Liquid X and GCP A100
