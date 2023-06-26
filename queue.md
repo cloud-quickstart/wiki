@@ -14,3 +14,4 @@
 - https://cloud.google.com/architecture/migration-from-aws-get-started
 - IAP and GWT signed headers for apps
 - CUDA Compute Level 8.9 (A102) NVidia RTX 4090 MSI Suprim Liquid X and GCP A100
+- Research Chronicle SOAR with intersections in Mandiant and linking with SCC-P
