@@ -1,4 +1,6 @@
 # Google Cloud Deploy
+# Review
+- 20230627 https://cloud.google.com/blog/products/devops-sre/google-cloud-deploy-supports-canary-and-parallel-deployment
 
 # Links
 - https://cloud.google.com/deploy
