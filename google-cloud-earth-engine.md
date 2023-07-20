@@ -2,6 +2,7 @@
 - sign up for a limited account to evaluate Earth Engine
 - https://cloud.google.com/earth-engine/pricing
 - https://code.earthengine.google.com/?project=earthengine-ol
+- https://github.com/GoogleCloudPlatform/rad-lab/tree/main/modules
 
 # Notes
 - https://www.prnewswire.com/news-releases/south-florida-agency-turns-to-google-public-sector-to-help-manage-critical-water-programs-301666014.html
