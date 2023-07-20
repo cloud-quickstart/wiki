@@ -3,6 +3,10 @@
 - https://cloud.google.com/earth-engine/pricing
 - https://code.earthengine.google.com/?project=earthengine-ol
 
+# Notes
+- https://www.prnewswire.com/news-releases/south-florida-agency-turns-to-google-public-sector-to-help-manage-critical-water-programs-301666014.html
+- https://developers.google.com/earth-engine/datasets/catalog/USDA_NASS_CDL
+- https://cloud.google.com/blog/topics/sustainability/how-natural-resources-canada-uses-google-earth-engine
 
 Get Individual account
 
