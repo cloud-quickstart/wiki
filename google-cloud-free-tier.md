@@ -38,6 +38,7 @@ https://gdg.community.dev/gdg-cloud-ottawa/
 
 # Google Billing FAQ
 ## Billing Quota
+See https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding/blob/main/docs/google-cloud-onboarding.md#quota-increase and https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding/blob/main/docs/google-cloud-onboarding.md#billing
 Increase your throughput on getting billing requests approved in down to 3 min by selecting "paid services" at all times.
 
 You will run into the 5 project/billing account associations quota fairly early - you have 2 options.  Create a 2nd billing account to get 5 more - this may get flagged and cause a < 24 turnaround but may go through within the hour.  The other option is to prepay at least $50 to your account https://cloud.google.com/billing/docs/how-to/manual-payment?hl=en this will assist in verifying the account when you ask for a quota increase
