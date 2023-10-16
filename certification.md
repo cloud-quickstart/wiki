@@ -16,6 +16,10 @@
 - https://explore.skillbuilder.aws/learn/course/14637/play/82859/overview-and-instructions-official-practice-exams
 
 ## Azure Certification
+- https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/
+- https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900
+- https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/#two-ways-to-prepare
+- https://ignite.microsoft.com/?wt.mc_ID=ignite2023_esc_corp_bn_oo_docsbanner_bigdocsbanner_mslearn
 
 ## NVidia Certifiaction
 
