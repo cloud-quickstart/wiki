@@ -4,3 +4,6 @@
 
 # ML
 
+# Generative AI
+- https://www.aboutamazon.com/news/aws/aws-amazon-bedrock-general-availability-generative-ai-innovations
+
