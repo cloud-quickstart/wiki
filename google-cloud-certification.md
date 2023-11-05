@@ -26,6 +26,13 @@ Error Budget
 Monitoring (Alerts, Tickets, Logging/Metrics)
 Provisioning
 
+
+## Google Professional Machine Learning Engineer
+
+### PMLE Training
+- [https://www.cloudskillsboost.google/cou](https://www.cloudskillsboost.google/course_sessions/5978131/video/411368)
+
+
 ## Google Professional Cloud DevOps Engineer
 
 https://cloud.google.com/certification/guides/cloud-devops-engineer
