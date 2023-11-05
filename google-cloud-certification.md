@@ -28,10 +28,32 @@ Provisioning
 
 
 ## Google Professional Machine Learning Engineer
-
+- https://cloud.google.com/learn/certification/machine-learning-engineer
+- 1 time practice test per org - https://docs.google.com/forms/d/e/1FAIpQLSeYmkCANE81qSBqLW0g2X7RoskBX9yGYQu-m1TtsjMvHabGqg/viewform 
+- 
 ### PMLE Training
 - [https://www.cloudskillsboost.google/cou](https://www.cloudskillsboost.google/course_sessions/5978131/video/411368)
 
+## PMLE Notes
+- deep field before deep learning https://esahubble.org/images/heic0611b/ https://simbad.u-strasbg.fr/simbad/sim-id?Ident=Hubble+Ultra+Deep+Field
+- https://en.wikipedia.org/wiki/Comparison_of_deep_learning_software
+- tree classifier using area under the curve - https://dmip.webs.upv.es/papers/ICML2002presentation.pdf - the greater AUC means better positive/negative classification
+- XGBoost - https://xgboost.readthedocs.io/en/stable/tutorials/model.html https://www.analyticsvidhya.com/blog/2018/09/an-end-to-end-guide-to-understand-the-math-behind-xgboost/#:~:text=XGBoost%20is%20a%20machine%20learning,won%20several%20machine%20learning%20competitions.
+- https://medium.com/google-cloud/vertex-ai-pipelines-vs-cloud-composer-for-orchestration-4bba129759de#:~:text=Vertex%20AI%20Pipelines%20is%20serverless,Even%20with%20GPUs%20if%20needed.
+- https://cloud.google.com/blog/products/ai-machine-learning/schedule-and-execute-notebooks-with-vertex-ai-workbench
+- https://codelabs.developers.google.com/vertex_notebook_executor#0
+- https://www.tensorflow.org/guide/tpu#distribution_strategies
+- TPU nodes(gRPC)/VMs(ssh) and twisted topology https://cloud.google.com/tpu/docs/system-architecture-tpu-vm
+- TPU V4 up to 2048 TPU cores - https://cloud.google.com/tpu/docs/supported-tpu-configurations
+- JAX Autograd (automated gradient function) and XLA (Accelerated Linear Algebra - see cuBLAS) https://jax.readthedocs.io/en/latest/
+- https://neptune.ai/blog/retraining-model-during-deployment-continuous-training-continuous-testing
+- hashing or homomorphic encryption https://fastdatascience.com/sensitive-data-machine-learning-model/
+- TensorFlow Data Validation and Pandas https://www.tensorflow.org/tfx/data_validation/get_started
+- TensorFlow from Google Brain https://en.wikipedia.org/wiki/TensorFlow#TensorFlow
+- Batch and Streaming data processing https://beam.apache.org/
+- https://medium.com/mlpoint/pandas-for-machine-learning-53846bc9a98b
+- training with mini-batch gradient descent https://towardsdatascience.com/batch-mini-batch-stochastic-gradient-descent-7a62ecba642a
+- training with L1 regularization https://towardsdatascience.com/regularization-in-deep-learning-l1-l2-and-dropout-377e75acc036
 
 ## Google Professional Cloud DevOps Engineer
 
