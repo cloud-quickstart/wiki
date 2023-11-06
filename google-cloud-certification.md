@@ -55,8 +55,90 @@ Provisioning
 - Batch and Streaming data processing https://beam.apache.org/
 - https://medium.com/mlpoint/pandas-for-machine-learning-53846bc9a98b
 - training with mini-batch gradient descent https://towardsdatascience.com/batch-mini-batch-stochastic-gradient-descent-7a62ecba642a
+- https://en.wikipedia.org/wiki/Regularization_%28mathematics%29
 - training with L1 regularization (prevent overfitting) https://towardsdatascience.com/regularization-in-deep-learning-l1-l2-and-dropout-377e75acc036
 - small normalized wide dataset (reduce feature scaling for training) https://developers.google.com/machine-learning/data-prep/transform/normalization
+- PCA https://www.analyticsvidhya.com/blog/2022/07/principal-component-analysis-beginner-friendly/
+- reduce ML latency https://cloud.google.com/architecture/minimizing-predictive-serving-latency-in-machine-learning#optimizing_models_for_serving
+- https://en.wikipedia.org/wiki/Decision_tree_pruning
+- https://en.wikipedia.org/wiki/Confusion_matrix
+- https://www.tensorflow.org/guide/keras/serialization_and_saving
+- https://www.tensorflow.org/guide/saved_model
+- https://cloud.google.com/vertex-ai/docs/model-registry/introduction
+
+- https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc
+- https://colab.research.google.com/github/Fraud-Detection-Handbook/fraud-detection-handbook/blob/main/Chapter_4_PerformanceMetrics/ThresholdBased.ipynb
+- https://colab.research.google.com/github/Fraud-Detection-Handbook/fraud-detection-handbook/blob/main/Chapter_4_PerformanceMetrics/ThresholdFree.ipynb
+- https://cloud.google.com/storage/docs/encryption
+- https://cloud.google.com/vertex-ai/docs/workbench/managed/schedule-managed-notebooks-run-quickstart
+- https://cloud.google.com/vertex-ai/docs/pipelines/run-pipeline
+- https://cloud.google.com/architecture/setting-up-mlops-with-composer-and-mlflow
+- https://cloud.google.com/tpu/docs/intro-to-tpu#when_to_use_tpus
+- https://www.tensorflow.org/guide/distributed_training
+- https://www.tensorflow.org/tutorials/distribute/multi_worker_with_ctl
+- https://cloud.google.com/dlp/docs/transformations-reference#transformation_methods
+- https://cloud.google.com/blog/products/identity-security/next-onair20-security-week-session-guide
+- https://cloud.google.com/dlp/docs/creating-job-triggers
+- https://www.tensorflow.org/tfx/guide/tfdv
+- https://cloud.google.com/tensorflow-enterprise/docs/overview
+- https://cloud.google.com/architecture/ml-modeling-monitoring-analyzing-training-server-skew-in-ai-platform-prediction-with-tfdv
+- https://developers.google.com/machine-learning/crash-course/representation/cleaning-data
+- https://developers.google.com/machine-learning/testing-debugging/metrics/interpretic
+- https://developers.google.com/machine-learning/crash-course/regularization-for-sparsity/l1-regularization
+- https://developers.google.com/machine-learning/crash-course/feature-crosses/video-lecture
+- https://cloud.google.com/blog/products/ai-machine-learning/building-ml-models-with-eda-feature-selection
+- https://developers.google.com/machine-learning/crash-course/regularization-for-sparsity/l1-regularization
+- https://cloud.google.com/vertex-ai/docs/training/hyperparameter-tuning-overview
+- https://cloud.google.com/vertex-ai/docs/vizier/overview
+- https://google-cloud-pipeline-components.readthedocs.io/en/google-cloud-pipeline-components-1.0.7/google_cloud_pipeline_components.v1.hyperparameter_tuning_job.html#google_cloud_pipeline_components.v1.hyperparameter_tuning_job.HyperparameterTuningJobRunOp
+- https://developers.google.com/machine-learning/testing-debugging/common/model-errors#establish-a-baseline
+- https://cloud.google.com/automl-tables/docs/evaluate#evaluation_metrics_for_regression_models
+- https://developers.google.com/machine-learning/glossary#baseline
+- https://cloud.google.com/ai-platform/training/docs/training-at-scale
+- https://cloud.google.com/ai-platform/training/docs/machine-types#scale_tiers
+- https://cloud.google.com/vertex-ai/docs/training/distributed-training
+- https://cloud.google.com/ai-platform/training/docs/overview#distributed_training_structure
+- https://github.com/tensorflow/mesh
+- https://cloud.google.com/vertex-ai/docs/featurestore/overview#benefits
+- https://cloud.google.com/architecture/ml-on-gcp-best-practices#model-deployment-and-serving
+- https://cloud.google.com/memorystore/docs/redis/redis-overview
+- https://cloud.google.com/vertex-ai/docs/experiments/tensorboard-overview
+- https://cloud.google.com/vertex-ai/docs/ml-metadata/introduction
+- https://cloud.google.com/vertex-ai/docs/pipelines/visualize-pipeline
+- https://cloud.google.com/architecture/ml-modeling-monitoring-automating-server-data-skew-detection-in-ai-platform-prediction
+- https://cloud.google.com/vertex-ai/docs/model-monitoring/overview
+- https://cloud.google.com/automl-tables/docs/problem-types
+- https://cloud.google.com/blog/products/gcp/predicting-community-engagement-on-reddit-using-tensorflow-gdelt-and-cloud-dataflow-part-2
+- https://www.tensorflow.org/tutorials/keras/regression
+- https://www.tensorflow.org/tutorials/keras/classification
+- https://cloud.google.com/architecture/best-practices-for-ml-performance-cost
+- https://www.tensorflow.org/lite/performance/model_optimization
+- https://www.tensorflow.org/tutorials/images/transfer_learning
+- https://developers.google.com/machine-learning/data-prep/construct/sampling-splitting/imbalanced-data
+- https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/structured_data/imbalanced_data.ipynb
+- https://colab.research.google.com/github/stellargraph/stellargraph/blob/master/demos/calibration/calibration-node-classification.ipynb
+- https://developers.google.com/machine-learning/glossary#calibration-layer
+- https://developers.google.com/machine-learning/testing-debugging/common/overview
+- https://developers.google.com/machine-learning/crash-course/regularization-for-simplicity/l2-regularization
+- https://developers.google.com/machine-learning/crash-course/regularization-for-sparsity/l1-regularization
+- https://cloud.google.com/bigquery-ml/docs/preventing-overfitting
+- https://www.tensorflow.org/tutorials/keras/overfit_and_underfit
+- https://www.tensorflow.org/tensorboard/get_started
+- https://cloud.google.com/architecture/guidelines-for-developing-high-quality-ml-solutions#guidelines_for_model_quality
+- https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning#data_and_model_validation
+- https://cloud.google.com/architecture/implementing-deployment-and-testing-strategies-on-gke
+- https://cloud.google.com/architecture/application-deployment-and-testing-strategies#choosing_the_right_strategy
+- https://cloud.google.com/vertex-ai/docs/general/deployment
+- https://docs.seldon.io/projects/seldon-core/en/latest/analytics/routers.html
+- https://cloud.google.com/blog/topics/developers-practitioners/add-preprocessing-functions-tensorflow-models-and-deploy-vertex-ai
+- https://www.tensorflow.org/tutorials/customization/custom_layers
+- https://www.tensorflow.org/api_docs/python/tf/keras/layers/Lambda
+- https://developers.google.com/machine-learning/guides/rules-of-ml#rule_32_re-use_code_between_your_training_pipeline_and_your_serving_pipeline_whenever_possible
+- https://cloud.google.com/vertex-ai/docs/pipelines/lineage
+- https://cloud.google.com/vertex-ai/docs/ml-metadata/tracking
+- https://cloud.google.com/vertex-ai/pricing
+- https://cloud.google.com/architecture/ml-on-gcp-best-practices#operationalized-training
+- https://cloud.google.com/architecture/ml-on-gcp-best-practices#organize-your-ml-model-artifacts
 
 ## Google Professional Cloud DevOps Engineer
 
