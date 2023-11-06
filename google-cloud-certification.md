@@ -140,6 +140,7 @@ Provisioning
 - https://cloud.google.com/architecture/ml-on-gcp-best-practices#operationalized-training
 - https://cloud.google.com/architecture/ml-on-gcp-best-practices#organize-your-ml-model-artifacts
 - https://www.tensorflow.org/lite/performance/post_training_quantization#:~:text=Post%2Dtraining%20quantization%20is%20a,little%20degradation%20in%20model%20accuracy.
+- https://developers.google.com/machine-learning/data-prep/construct/sampling-splitting/imbalanced-data
 
 ## Google Professional Cloud DevOps Engineer
 
