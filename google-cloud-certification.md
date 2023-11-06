@@ -35,6 +35,8 @@ Provisioning
 - [https://www.cloudskillsboost.google/cou](https://www.cloudskillsboost.google/course_sessions/5978131/video/411368)
 
 ## PMLE Notes
+- Machine Learning Crash Course https://developers.google.com/machine-learning/crash-course/representation/cleaning-data
+- learn gradient ascent and expand the partial derivative section - "the negative of the gradient vector points into the valley" https://developers.google.com/machine-learning/crash-course/reducing-loss/gradient-descent
 - deep field before deep learning https://esahubble.org/images/heic0611b/ https://simbad.u-strasbg.fr/simbad/sim-id?Ident=Hubble+Ultra+Deep+Field
 - https://en.wikipedia.org/wiki/Comparison_of_deep_learning_software
 - tree classifier using area under the curve - https://dmip.webs.upv.es/papers/ICML2002presentation.pdf - the greater AUC means better positive/negative classification
@@ -53,7 +55,8 @@ Provisioning
 - Batch and Streaming data processing https://beam.apache.org/
 - https://medium.com/mlpoint/pandas-for-machine-learning-53846bc9a98b
 - training with mini-batch gradient descent https://towardsdatascience.com/batch-mini-batch-stochastic-gradient-descent-7a62ecba642a
-- training with L1 regularization https://towardsdatascience.com/regularization-in-deep-learning-l1-l2-and-dropout-377e75acc036
+- training with L1 regularization (prevent overfitting) https://towardsdatascience.com/regularization-in-deep-learning-l1-l2-and-dropout-377e75acc036
+- small normalized wide dataset (reduce feature scaling for training) https://developers.google.com/machine-learning/data-prep/transform/normalization
 
 ## Google Professional Cloud DevOps Engineer
 
