@@ -32,7 +32,8 @@ Provisioning
 - 1 time practice test per org - https://docs.google.com/forms/d/e/1FAIpQLSeYmkCANE81qSBqLW0g2X7RoskBX9yGYQu-m1TtsjMvHabGqg/viewform 
 - 
 ### PMLE Training
-- [https://www.cloudskillsboost.google/cou](https://www.cloudskillsboost.google/course_sessions/5978131/video/411368)
+- https://www.cloudskillsboost.google/paths/17/course_templates/8
+
 
 ## PMLE Notes
 - Machine Learning Crash Course https://developers.google.com/machine-learning/crash-course/representation/cleaning-data
@@ -141,6 +142,8 @@ Provisioning
 - https://cloud.google.com/architecture/ml-on-gcp-best-practices#organize-your-ml-model-artifacts
 - https://www.tensorflow.org/lite/performance/post_training_quantization#:~:text=Post%2Dtraining%20quantization%20is%20a,little%20degradation%20in%20model%20accuracy.
 - https://developers.google.com/machine-learning/data-prep/construct/sampling-splitting/imbalanced-data
+- 202312
+- 
 
 ### Professional Machine Learning Engineer 2023 Dec
 
