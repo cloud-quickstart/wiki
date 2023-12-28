@@ -21,6 +21,11 @@
 - https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/#two-ways-to-prepare
 - https://ignite.microsoft.com/?wt.mc_ID=ignite2023_esc_corp_bn_oo_docsbanner_bigdocsbanner_mslearn
 
+### AZ-204 : Developing Solutions for Microsoft Azure
+- after getting your AZ-900 to get faalmiliar with the way azure exams are done - start on your developer/architect certifications
+- 
+https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-204
+- 
 ## NVidia Certifiaction
 
 ## Java Certification
