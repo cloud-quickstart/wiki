@@ -15,6 +15,9 @@
 - https://aws.amazon.com/certification/certified-cloud-practitioner/ https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf
 - https://explore.skillbuilder.aws/learn/course/14637/play/82859/overview-and-instructions-official-practice-exams
 
+### AWS SAP: Solutions Architect Professional
+- 
+
 ## Azure Certification
 - https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/
 - https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900
