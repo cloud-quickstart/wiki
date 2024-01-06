@@ -16,19 +16,22 @@
 - https://explore.skillbuilder.aws/learn/course/14637/play/82859/overview-and-instructions-official-practice-exams
 
 ### AWS SAP: Solutions Architect Professional
-- 
+- https://www.credly.com/badges/4aa1c878-bd30-45d6-b822-44ee4df4301f
 
 ## Azure Certification
 - https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/
 - https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900
 - https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/#two-ways-to-prepare
 - https://ignite.microsoft.com/?wt.mc_ID=ignite2023_esc_corp_bn_oo_docsbanner_bigdocsbanner_mslearn
+- https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4J5ea
 
 ### AZ-204 : Developing Solutions for Microsoft Azure
 - after getting your AZ-900 to get faalmiliar with the way azure exams are done - start on your developer/architect certifications
 - 
 https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-204
-- 
+
+### AZ-305 : Azure Solutions Architect Expert
+- https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/?WT.mc_id=Azure_BoM-wwl
 ## NVidia Certifiaction
 
 ## Java Certification
