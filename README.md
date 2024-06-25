@@ -1,4 +1,7 @@
-This is not an officially supported Google product
+# References
+- Obrienlabs Dev Blog - https://github.com/ObrienlabsDev/blog/wiki
+- Historical - Obrienlabs Blogspot - https://eclipsejpa.blogspot.com/
+- 
 
 # Wiki / Confluence site
 
