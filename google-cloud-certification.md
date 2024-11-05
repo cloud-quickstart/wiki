@@ -15,16 +15,22 @@
 ## SRE Principles
 Google has defined Site Reliability Engineering tenets.
 
-Emergency Response (MTTR, MTTF)
+- Emergency Response (MTTR, MTTF)
+- Capacity Planning
+- Change Management
+- Error Budget
+- Monitoring (Alerts, Tickets, Logging/Metrics)
+- Provisioning
 
-Capacity Planning
+In the [Google Professional Cloud Devops Engineer Certification](https://cloud.google.com/learn/certification/guides/cloud-devops-engineer) exam - 25% of the questions are on SRE principles in section 3
 
-Change Management
+See Chapter 4 of "Google Cloud for DevOps Engineers" for the SRE section - https://www.google.ca/books/edition/Google_Cloud_for_DevOps_Engineers/DH8zEAAAQBAJ?hl=en&gbpv=1
 
-Error Budget
 
-Monitoring (Alerts, Tickets, Logging/Metrics)
-Provisioning
+Links
+- https://sre.google/
+- https://sre.google/books/
+
 
 
 ## Google Professional Machine Learning Engineer
