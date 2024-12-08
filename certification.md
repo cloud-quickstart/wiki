@@ -35,3 +35,9 @@ https://learn.microsoft.com/en-us/credentials/certifications/resources/study-gui
 ## NVidia Certifiaction
 
 ## Java Certification
+
+## Linux Foundation Certification for Kubernetes
+- https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/
+## Apple Swift Certification
+- https://developer.apple.com/learn/
+- https://certiport.pearsonvue.com/Certifications/Apple/App-Dev-With-Swift/Overview
