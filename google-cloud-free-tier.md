@@ -12,6 +12,8 @@ Google Cloud accounts that initially setup an Organization via a Workspaces user
 
 Google Cloud accounts that enable Anthos will receive a one time $800 in credits for 30 days related to Anthos.
 
+Example GCP account onboarding - https://github.com/GoogleCloudPlatform/pubsec-declarative-toolkit/issues/296 and https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding/blob/v020/docs/google-cloud-onboarding.md
+
 ## Google Cloud Training credits
 For new GCP accounts a link shows up when you access the lab site https://www.cloudskillsboost.google/  or https://inthecloud.withgoogle.com/cloud-learning-paths-22/register.html
 
