@@ -229,7 +229,7 @@ http://wiki.obrienlabs.cloud/display/DEV/Performance#Performance-FullKubernetesC
 
 https://cloud.google.com/sdk/docs/quickstart
 
-    biometric:google-cloud-sdk michaelobrien$ ./install.sh
+    biometric:google-cloud-sdk $ ./install.sh
     Welcome to the Google Cloud SDK!
     
     │     Status    │                         Name                         │            ID            │   Size   │
@@ -274,7 +274,7 @@ https://cloud.google.com/sdk/docs/quickstart
     To update your SDK installation to the latest version [365.0.0], run:
       $ gcloud components update
           
-      Enter a path to an rc file to update, or leave blank to use [/Users/michaelobrien/.zshrc]:  /Users/michaelobrien/.bash_profile
+      Enter a path to an rc file to update, or leave blank to use [/Users//.zshrc]:  /Users//.bash_profile
 
       already have python 3.9 - you must run the 3.7 installer
       Cloud SDK works best with Python 3.7 and certain modules.
@@ -292,8 +292,8 @@ https://cloud.google.com/sdk/docs/quickstart
     Virtual env enabled.
 
     verify....
-    biometric:google-cloud-sdk michaelobrien$ source ~/.bash_profile
-    biometric:google-cloud-sdk michaelobrien$ gcloud version
+    biometric:google-cloud-sdk$ source ~/.bash_profile
+    biometric:google-cloud-sdk $ gcloud version
     Google Cloud SDK 365.0.0
     bq 2.0.71
     core 2021.11.12
@@ -326,7 +326,7 @@ https://console.developers.google.com/apis page.
 
 Your Google Cloud SDK is configured and ready to use!
 
-* Commands that require authentication will use michael@obrienlabs.cloud by default
+* Commands that require authentication will use m by default
 * Commands will reference project `biometric-334503` by default
 Run `gcloud help config` to learn how to change individual settings
 
@@ -347,7 +347,7 @@ gcloud config list project
 ### Changing to Java 17 from 11 in the shell
 ### Configuring github credentials 
 ```
-michael@cloudshell:~$ git config --global user.email "michael@"
+michael@cloudshell:~$ git config --global user.email ""
 michael@cloudshell:~$ git config --global user.name "Michael "
 ```
 ### Using a service account
@@ -587,7 +587,7 @@ Updated property [compute/zone].
  sudo apt-get install curl
 
  sudo curl https://releases.rancher.com/install-docker/20.10.sh | sh
- sudo usermod -aG docker michael
+ sudo usermod -aG docker mich
 
 ichael@services:~$ sudo docker run --name reference-nbi -d -p 8888:8080 obrienlabs/reference-nbi:0.0.1
 Unable to find image 'obrienlabs/reference-nbi:0.0.1' locally
@@ -635,9 +635,9 @@ Resolving deltas: 100% (714/714), done.
 |                                                                                                       |
 +-------------------------------------------------------------------------------------------------------+
 
-michael@cloudshell:~/cloudshell_open/spinnaker-for-gcp/scripts/install$ git config --global user.email "michael@containerized.org"
+michael@cloudshell:~/cloudshell_open/spinnaker-for-gcp/scripts/install$ git config --global user.email "mi..rg"
 michael@cloudshell:~/cloudshell_open/spinnaker-for-gcp/scripts/install$ git config --global user.name "Michael OBrien"
-michael@cloudshell:~/cloudshell_open/spinnaker-for-gcp/scripts/install$ git config --global user.email "michael@obrienlabs.org"
+michael@cloudshell:~/cloudshell_open/spinnaker-for-gcp/scripts/install$ git config --global user.email "mi..rg"
 michael@cloudshell:~/cloudshell_open/spinnaker-for-gcp/scripts/install$ PROJECT_ID=biometric-dev \
 >     ~/cloudshell_open/spinnaker-for-gcp/scripts/install/setup_properties.sh
 michael@cloudshell:~/cloudshell_open/spinnaker-for-gcp/scripts/install$ cloudshell edit \
