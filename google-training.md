@@ -9,7 +9,8 @@
 - The GCP Developer Blog https://cloud.google.com/blog/topics/developers-practitioners
 - The GCP Security Summit July 2022 https://cloudonair.withgoogle.com/events/summit-security
 - In Q3 2022 - GCP introduced the Google Cloud Innovators Plus program with $500 cloud credits and $500 + $200 support for certification via a $300 yearly subscription - https://cloud.google.com/innovators and https://cloud.google.com/innovators/plus?hl=en
-- As of 2025 - GCP renamed the innovators plus program "Google Developer Program premium" https://developers.google.com/program/plans-and-pricing?continue=https%3A%2F%2Fwww.cloudskillsboost.google%2Fsubscriptions&hl=en#plans-yearly 
+- As of 2025 - GCP renamed the innovators plus program "Google Developer Program premium" https://developers.google.com/program/plans-and-pricing?continue=https%3A%2F%2Fwww.cloudskillsboost.google%2Fsubscriptions&hl=en#plans-yearly
+- https://developers.google.com/program/my-benefits?hl=en
 
 # Google Cloud Training
 
